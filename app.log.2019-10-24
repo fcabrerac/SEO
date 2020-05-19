@@ -1,0 +1,42 @@
+24-10-2019 11:37:53,949  INFO webxml.WebxmlGrailsPlugin - Loading default config file: class DefaultWebXmlConfig
+24-10-2019 11:37:54,059  WARN webxml.WebxmlGrailsPlugin - Did not find application config file: WebXmlConfig
+24-10-2019 11:37:56,708  INFO webxml.WebxmlGrailsPlugin - Loading default config file: class DefaultWebXmlConfig
+24-10-2019 11:37:56,723  WARN webxml.WebxmlGrailsPlugin - Did not find application config file: WebXmlConfig
+24-10-2019 11:38:06,710  INFO [localhost].[/IP18GAA] - Initializing Spring root WebApplicationContext
+24-10-2019 11:38:33,342  INFO hibernate4.HibernatePluginSupport - Set db generation strategy to 'create-drop' for datasource DEFAULT
+24-10-2019 11:38:37,477  INFO cache.CacheBeanPostProcessor - postProcessBeanDefinitionRegistry start
+24-10-2019 11:38:37,506  INFO cache.CacheBeanPostProcessor - postProcessBeanFactory
+24-10-2019 11:38:40,395  WARN config.ConfigurationFactory - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/awake/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+24-10-2019 11:38:47,802  INFO scaffolding.AbstractGrailsTemplateGenerator - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@58ba3c1f: startup date [Thu Oct 24 11:38:37 COT 2019]; parent: Root WebApplicationContext]
+24-10-2019 11:38:56,128  INFO databasemigration.MigrationRunner - updateOnStart disabled for dataSource; not running migrations
+24-10-2019 11:38:56,192  INFO ScaffoldingGrailsPlugin - configuring scaffolding...
+24-10-2019 11:38:56,205  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Activity
+24-10-2019 11:38:58,032  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.ActivityOutcome
+24-10-2019 11:38:58,845  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.AvailablePlatform
+24-10-2019 11:39:01,234  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Category
+24-10-2019 11:39:02,049  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Course
+24-10-2019 11:39:02,674  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.GAA
+24-10-2019 11:39:03,159  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Module
+24-10-2019 11:39:03,768  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.ModuleOutcome
+24-10-2019 11:39:04,224  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Outcome
+24-10-2019 11:39:04,740  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.VerifiableActivity
+24-10-2019 11:39:05,303  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.Role
+24-10-2019 11:39:05,787  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.User
+24-10-2019 11:39:06,213  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.UserRole
+24-10-2019 11:39:06,669  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.platform.BlackboardPlatform
+24-10-2019 11:39:07,258  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.platform.PlatformCreator
+24-10-2019 11:39:07,665  INFO ScaffoldingGrailsPlugin - done configuring scaffolding.
+24-10-2019 11:39:08,322  INFO context.GrailsConfigUtils - [GrailsContextLoader] Grails application loaded.
+24-10-2019 11:39:08,796  INFO conf.BootStrap - Creado el rol: ROLE_ADMIN
+24-10-2019 11:39:08,811  INFO conf.BootStrap - Creado el rol: ROLE_STUDENT
+24-10-2019 11:39:08,827  INFO conf.BootStrap - Creado el rol: ROLE_PROFESSOR
+24-10-2019 11:39:09,191  INFO conf.BootStrap - Creado el usuario: cr.calle
+24-10-2019 11:39:09,300  INFO conf.BootStrap - Creado el usuario: se-busto
+24-10-2019 11:39:09,394  INFO conf.BootStrap - Creado el usuario: danielsantamariarod
+24-10-2019 11:39:09,495  INFO conf.BootStrap - Creado el usuario: gcortes
+24-10-2019 11:39:09,597  INFO conf.BootStrap - Creado el usuario: wa.rodriguezm
+24-10-2019 11:39:09,684  INFO conf.BootStrap - Creado el usuario: js.preciado
+24-10-2019 11:39:09,793  INFO conf.BootStrap - Creado el usuario: mf.higuera
+24-10-2019 11:39:09,918  INFO conf.BootStrap - Creado el usuario: ana-vela
+24-10-2019 11:39:10,129  INFO [localhost].[/IP18GAA] - Initializing Spring FrameworkServlet 'grails'
+24-10-2019 11:39:10,242  INFO http11.Http11Protocol - Starting ProtocolHandler ["http-bio-8080"]

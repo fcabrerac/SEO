@@ -1,0 +1,1345 @@
+17-12-2019 02:14:26,026  INFO webxml.WebxmlGrailsPlugin - Loading default config file: class DefaultWebXmlConfig
+17-12-2019 02:14:26,088  WARN webxml.WebxmlGrailsPlugin - Did not find application config file: WebXmlConfig
+17-12-2019 02:14:27,240  INFO webxml.WebxmlGrailsPlugin - Loading default config file: class DefaultWebXmlConfig
+17-12-2019 02:14:27,240  WARN webxml.WebxmlGrailsPlugin - Did not find application config file: WebXmlConfig
+17-12-2019 02:14:31,987  INFO [localhost].[/IP18GAA] - Initializing Spring root WebApplicationContext
+17-12-2019 02:14:37,133  INFO hibernate4.HibernatePluginSupport - Set db generation strategy to '' for datasource DEFAULT
+17-12-2019 02:14:38,782  INFO cache.CacheBeanPostProcessor - postProcessBeanDefinitionRegistry start
+17-12-2019 02:14:38,782  INFO cache.CacheBeanPostProcessor - postProcessBeanFactory
+17-12-2019 02:14:40,823  WARN config.ConfigurationFactory - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/awake/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+17-12-2019 02:14:43,805  INFO scaffolding.AbstractGrailsTemplateGenerator - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@23b7762e: startup date [Tue Dec 17 02:14:38 COT 2019]; parent: Root WebApplicationContext]
+17-12-2019 02:14:48,169  INFO databasemigration.MigrationRunner - updateOnStart disabled for dataSource; not running migrations
+17-12-2019 02:14:48,208  INFO ScaffoldingGrailsPlugin - configuring scaffolding...
+17-12-2019 02:14:48,252  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Activity
+17-12-2019 02:14:49,226  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.ActivityOutcome
+17-12-2019 02:14:49,730  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.AvailablePlatform
+17-12-2019 02:14:50,164  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Category
+17-12-2019 02:14:52,199  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Course
+17-12-2019 02:14:52,602  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.GAA
+17-12-2019 02:14:53,032  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Module
+17-12-2019 02:14:53,412  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.ModuleOutcome
+17-12-2019 02:14:53,822  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Outcome
+17-12-2019 02:14:54,266  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.VerifiableActivity
+17-12-2019 02:14:54,702  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.Role
+17-12-2019 02:14:55,122  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.User
+17-12-2019 02:14:55,560  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.UserRole
+17-12-2019 02:14:55,921  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.platform.BlackboardPlatform
+17-12-2019 02:14:56,350  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.platform.PlatformCreator
+17-12-2019 02:14:56,819  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.Rubric
+17-12-2019 02:14:57,197  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricCriterionLevelAnswer
+17-12-2019 02:14:57,603  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricCriterionLevel
+17-12-2019 02:14:58,013  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricLevelFeedback
+17-12-2019 02:14:58,428  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcome
+17-12-2019 02:14:59,038  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcomeCriterion
+17-12-2019 02:14:59,528  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricPlatformActivity
+17-12-2019 02:14:59,885  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.StudentRubricAnswer
+17-12-2019 02:15:00,293  INFO ScaffoldingGrailsPlugin - done configuring scaffolding.
+17-12-2019 02:15:00,493  INFO context.GrailsConfigUtils - [GrailsContextLoader] Grails application loaded.
+17-12-2019 02:15:00,862 ERROR spi.SqlExceptionHelper - Table 'dbip18gaa.role' doesn't exist
+17-12-2019 02:15:00,885 ERROR context.GrailsContextLoaderListener - Error initializing the application: could not extract ResultSet
+org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at grails.gorm.DetachedCriteria$_get_closure2.doCall(DetachedCriteria.groovy:824)
+	at grails.gorm.DetachedCriteria$_withPopulatedQuery_closure10.doCall(DetachedCriteria.groovy:1213)
+	at org.grails.datastore.gorm.GormStaticApi$_withDatastoreSession_closure23.doCall(GormStaticApi.groovy:700)
+	at org.grails.datastore.mapping.core.DatastoreUtils.execute(DatastoreUtils.java:302)
+	at org.grails.datastore.gorm.AbstractDatastoreApi.execute(AbstractDatastoreApi.groovy:37)
+	at org.grails.datastore.gorm.GormStaticApi.withDatastoreSession(GormStaticApi.groovy:699)
+	at grails.gorm.DetachedCriteria.withPopulatedQuery(DetachedCriteria.groovy:1184)
+	at grails.gorm.DetachedCriteria.get(DetachedCriteria.groovy:823)
+	at grails.gorm.DetachedCriteria.find(DetachedCriteria.groovy:807)
+	at grails.gorm.DetachedCriteria.find(DetachedCriteria.groovy:806)
+	at org.grails.datastore.gorm.GormStaticApi.find(GormStaticApi.groovy:165)
+	at BootStrap.roles(BootStrap.groovy:23)
+	at BootStrap$_closure1.doCall(BootStrap.groovy:9)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'dbip18gaa.role' doesn't exist
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1053)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4096)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4028)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2490)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2651)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2734)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2322)
+	... 20 more
+17-12-2019 02:15:00,930  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.Activity
+17-12-2019 02:15:00,931  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.Activity
+17-12-2019 02:15:00,932  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.Activity
+17-12-2019 02:15:00,936  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.ActivityOutcome
+17-12-2019 02:15:00,936  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.ActivityOutcome
+17-12-2019 02:15:00,936  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.ActivityOutcome
+17-12-2019 02:15:00,936  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.AvailablePlatform
+17-12-2019 02:15:00,936  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.AvailablePlatform
+17-12-2019 02:15:00,936  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.AvailablePlatform
+17-12-2019 02:15:00,936  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.Category
+17-12-2019 02:15:00,937  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.Category
+17-12-2019 02:15:00,937  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.Category
+17-12-2019 02:15:00,937  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.Course
+17-12-2019 02:15:00,937  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.Course
+17-12-2019 02:15:00,937  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.Course
+17-12-2019 02:15:00,937  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.GAA
+17-12-2019 02:15:00,937  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.GAA
+17-12-2019 02:15:00,939  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.GAA
+17-12-2019 02:15:00,939  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.MainGoal
+17-12-2019 02:15:00,941  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.MainGoal
+17-12-2019 02:15:00,941  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.MainGoal
+17-12-2019 02:15:00,941  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.Module
+17-12-2019 02:15:00,941  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.Module
+17-12-2019 02:15:00,942  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.Module
+17-12-2019 02:15:00,942  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.ModuleOutcome
+17-12-2019 02:15:00,943  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.ModuleOutcome
+17-12-2019 02:15:00,945  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.ModuleOutcome
+17-12-2019 02:15:00,947  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.Outcome
+17-12-2019 02:15:00,952  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.Outcome
+17-12-2019 02:15:00,959  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.Outcome
+17-12-2019 02:15:00,963  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.PlatformActivity
+17-12-2019 02:15:00,963  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.PlatformActivity
+17-12-2019 02:15:00,963  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.PlatformActivity
+17-12-2019 02:15:00,963  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.StudentVerifiableActivity
+17-12-2019 02:15:00,963  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.StudentVerifiableActivity
+17-12-2019 02:15:00,963  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.StudentVerifiableActivity
+17-12-2019 02:15:00,964  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.SuggestedGoal
+17-12-2019 02:15:00,964  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.SuggestedGoal
+17-12-2019 02:15:00,964  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.SuggestedGoal
+17-12-2019 02:15:00,964  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.TransversalGoal
+17-12-2019 02:15:00,964  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.TransversalGoal
+17-12-2019 02:15:00,964  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.TransversalGoal
+17-12-2019 02:15:00,964  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.VerifiableActivity
+17-12-2019 02:15:00,964  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.VerifiableActivity
+17-12-2019 02:15:00,964  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.VerifiableActivity
+17-12-2019 02:15:00,965  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.login.Role
+17-12-2019 02:15:00,965  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.login.Role
+17-12-2019 02:15:00,965  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.login.Role
+17-12-2019 02:15:00,965  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.login.User
+17-12-2019 02:15:00,965  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.login.User
+17-12-2019 02:15:00,966  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.login.User
+17-12-2019 02:15:00,966  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.login.UserRole
+17-12-2019 02:15:00,966  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.login.UserRole
+17-12-2019 02:15:00,967  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.login.UserRole
+17-12-2019 02:15:00,967  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.platform.AbstractPlatform
+17-12-2019 02:15:00,967  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.platform.AbstractPlatform
+17-12-2019 02:15:00,967  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.platform.AbstractPlatform
+17-12-2019 02:15:00,967  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.platform.BlackboardPlatform
+17-12-2019 02:15:00,968  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.platform.BlackboardPlatform
+17-12-2019 02:15:00,968  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.platform.BlackboardPlatform
+17-12-2019 02:15:00,968  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.platform.PlatformCreator
+17-12-2019 02:15:00,969  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.platform.PlatformCreator
+17-12-2019 02:15:00,969  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.platform.PlatformCreator
+17-12-2019 02:15:00,969  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.rubric.Rubric
+17-12-2019 02:15:00,969  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.rubric.Rubric
+17-12-2019 02:15:00,969  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.rubric.Rubric
+17-12-2019 02:15:00,969  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.rubric.RubricCriterionLevel
+17-12-2019 02:15:00,969  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.rubric.RubricCriterionLevel
+17-12-2019 02:15:00,970  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.rubric.RubricCriterionLevel
+17-12-2019 02:15:00,970  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.rubric.RubricCriterionLevelAnswer
+17-12-2019 02:15:00,970  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.rubric.RubricCriterionLevelAnswer
+17-12-2019 02:15:00,970  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.rubric.RubricCriterionLevelAnswer
+17-12-2019 02:15:00,970  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.rubric.RubricLevelFeedback
+17-12-2019 02:15:00,970  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.rubric.RubricLevelFeedback
+17-12-2019 02:15:00,970  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.rubric.RubricLevelFeedback
+17-12-2019 02:15:00,971  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.rubric.RubricOutcome
+17-12-2019 02:15:00,971  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.rubric.RubricOutcome
+17-12-2019 02:15:00,971  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.rubric.RubricOutcome
+17-12-2019 02:15:00,971  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.rubric.RubricOutcomeCriterion
+17-12-2019 02:15:00,971  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.rubric.RubricOutcomeCriterion
+17-12-2019 02:15:00,971  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.rubric.RubricOutcomeCriterion
+17-12-2019 02:15:00,972  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.rubric.RubricPlatformActivity
+17-12-2019 02:15:00,973  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.rubric.RubricPlatformActivity
+17-12-2019 02:15:00,973  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.rubric.RubricPlatformActivity
+17-12-2019 02:15:01,004  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.rubric.StudentRubricAnswer
+17-12-2019 02:15:01,004  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.rubric.StudentRubricAnswer
+17-12-2019 02:15:01,004  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.rubric.StudentRubricAnswer
+17-12-2019 02:15:23,381  INFO webxml.WebxmlGrailsPlugin - Loading default config file: class DefaultWebXmlConfig
+17-12-2019 02:15:23,397  WARN webxml.WebxmlGrailsPlugin - Did not find application config file: WebXmlConfig
+17-12-2019 02:15:24,417  INFO webxml.WebxmlGrailsPlugin - Loading default config file: class DefaultWebXmlConfig
+17-12-2019 02:15:24,432  WARN webxml.WebxmlGrailsPlugin - Did not find application config file: WebXmlConfig
+17-12-2019 02:15:28,683  INFO [localhost].[/IP18GAA] - Initializing Spring root WebApplicationContext
+17-12-2019 02:15:33,346  INFO hibernate4.HibernatePluginSupport - Set db generation strategy to '' for datasource DEFAULT
+17-12-2019 02:15:34,746  INFO cache.CacheBeanPostProcessor - postProcessBeanDefinitionRegistry start
+17-12-2019 02:15:34,746  INFO cache.CacheBeanPostProcessor - postProcessBeanFactory
+17-12-2019 02:15:36,062  WARN config.ConfigurationFactory - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/awake/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+17-12-2019 02:15:39,075  INFO scaffolding.AbstractGrailsTemplateGenerator - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@23b7762e: startup date [Tue Dec 17 02:15:34 COT 2019]; parent: Root WebApplicationContext]
+17-12-2019 02:15:42,813  INFO databasemigration.MigrationRunner - updateOnStart disabled for dataSource; not running migrations
+17-12-2019 02:15:42,844  INFO ScaffoldingGrailsPlugin - configuring scaffolding...
+17-12-2019 02:15:42,860  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Activity
+17-12-2019 02:15:43,791  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.ActivityOutcome
+17-12-2019 02:15:44,283  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.AvailablePlatform
+17-12-2019 02:15:44,719  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Category
+17-12-2019 02:15:46,057  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Course
+17-12-2019 02:15:46,400  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.GAA
+17-12-2019 02:15:46,715  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Module
+17-12-2019 02:15:47,034  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.ModuleOutcome
+17-12-2019 02:15:47,389  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Outcome
+17-12-2019 02:15:47,691  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.VerifiableActivity
+17-12-2019 02:15:48,005  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.Role
+17-12-2019 02:15:48,353  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.User
+17-12-2019 02:15:48,711  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.UserRole
+17-12-2019 02:15:49,008  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.platform.BlackboardPlatform
+17-12-2019 02:15:49,368  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.platform.PlatformCreator
+17-12-2019 02:15:49,702  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.Rubric
+17-12-2019 02:15:50,057  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricCriterionLevelAnswer
+17-12-2019 02:15:50,391  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricCriterionLevel
+17-12-2019 02:15:50,721  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricLevelFeedback
+17-12-2019 02:15:51,049  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcome
+17-12-2019 02:15:51,410  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcomeCriterion
+17-12-2019 02:15:51,743  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricPlatformActivity
+17-12-2019 02:15:52,023  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.StudentRubricAnswer
+17-12-2019 02:15:52,335  INFO ScaffoldingGrailsPlugin - done configuring scaffolding.
+17-12-2019 02:15:52,433  INFO context.GrailsConfigUtils - [GrailsContextLoader] Grails application loaded.
+17-12-2019 02:15:52,728 ERROR spi.SqlExceptionHelper - Table 'dbip18gaa.role' doesn't exist
+17-12-2019 02:15:52,749 ERROR context.GrailsContextLoaderListener - Error initializing the application: could not extract ResultSet
+org.hibernate.exception.SQLGrammarException: could not extract ResultSet
+	at grails.gorm.DetachedCriteria$_get_closure2.doCall(DetachedCriteria.groovy:824)
+	at grails.gorm.DetachedCriteria$_withPopulatedQuery_closure10.doCall(DetachedCriteria.groovy:1213)
+	at org.grails.datastore.gorm.GormStaticApi$_withDatastoreSession_closure23.doCall(GormStaticApi.groovy:700)
+	at org.grails.datastore.mapping.core.DatastoreUtils.execute(DatastoreUtils.java:302)
+	at org.grails.datastore.gorm.AbstractDatastoreApi.execute(AbstractDatastoreApi.groovy:37)
+	at org.grails.datastore.gorm.GormStaticApi.withDatastoreSession(GormStaticApi.groovy:699)
+	at grails.gorm.DetachedCriteria.withPopulatedQuery(DetachedCriteria.groovy:1184)
+	at grails.gorm.DetachedCriteria.get(DetachedCriteria.groovy:823)
+	at grails.gorm.DetachedCriteria.find(DetachedCriteria.groovy:807)
+	at grails.gorm.DetachedCriteria.find(DetachedCriteria.groovy:806)
+	at org.grails.datastore.gorm.GormStaticApi.find(GormStaticApi.groovy:165)
+	at BootStrap.roles(BootStrap.groovy:23)
+	at BootStrap$_closure1.doCall(BootStrap.groovy:9)
+	at grails.util.Environment.evaluateEnvironmentSpecificBlock(Environment.java:327)
+	at grails.util.Environment.executeForEnvironment(Environment.java:320)
+	at grails.util.Environment.executeForCurrentEnvironment(Environment.java:296)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'dbip18gaa.role' doesn't exist
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:411)
+	at com.mysql.jdbc.Util.getInstance(Util.java:386)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:1053)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4096)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:4028)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2490)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2651)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2734)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:2155)
+	at com.mysql.jdbc.PreparedStatement.executeQuery(PreparedStatement.java:2322)
+	... 20 more
+17-12-2019 02:15:52,809  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.Activity
+17-12-2019 02:15:52,810  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.Activity
+17-12-2019 02:15:52,811  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.Activity
+17-12-2019 02:15:52,811  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.ActivityOutcome
+17-12-2019 02:15:52,811  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.ActivityOutcome
+17-12-2019 02:15:52,812  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.ActivityOutcome
+17-12-2019 02:15:52,812  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.AvailablePlatform
+17-12-2019 02:15:52,813  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.AvailablePlatform
+17-12-2019 02:15:52,813  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.AvailablePlatform
+17-12-2019 02:15:52,815  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.Category
+17-12-2019 02:15:52,815  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.Category
+17-12-2019 02:15:52,817  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.Category
+17-12-2019 02:15:52,818  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.Course
+17-12-2019 02:15:52,818  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.Course
+17-12-2019 02:15:52,818  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.Course
+17-12-2019 02:15:52,824  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.GAA
+17-12-2019 02:15:52,826  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.GAA
+17-12-2019 02:15:52,827  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.GAA
+17-12-2019 02:15:52,827  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.MainGoal
+17-12-2019 02:15:52,828  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.MainGoal
+17-12-2019 02:15:52,828  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.MainGoal
+17-12-2019 02:15:52,829  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.Module
+17-12-2019 02:15:52,829  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.Module
+17-12-2019 02:15:52,830  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.Module
+17-12-2019 02:15:52,830  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.ModuleOutcome
+17-12-2019 02:15:52,830  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.ModuleOutcome
+17-12-2019 02:15:52,830  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.ModuleOutcome
+17-12-2019 02:15:52,831  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.Outcome
+17-12-2019 02:15:52,834  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.Outcome
+17-12-2019 02:15:52,835  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.Outcome
+17-12-2019 02:15:52,836  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.PlatformActivity
+17-12-2019 02:15:52,838  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.PlatformActivity
+17-12-2019 02:15:52,838  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.PlatformActivity
+17-12-2019 02:15:52,838  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.StudentVerifiableActivity
+17-12-2019 02:15:52,838  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.StudentVerifiableActivity
+17-12-2019 02:15:52,838  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.StudentVerifiableActivity
+17-12-2019 02:15:52,839  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.SuggestedGoal
+17-12-2019 02:15:52,840  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.SuggestedGoal
+17-12-2019 02:15:52,840  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.SuggestedGoal
+17-12-2019 02:15:52,841  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.TransversalGoal
+17-12-2019 02:15:52,841  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.TransversalGoal
+17-12-2019 02:15:52,841  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.TransversalGoal
+17-12-2019 02:15:52,842  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.VerifiableActivity
+17-12-2019 02:15:52,842  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.VerifiableActivity
+17-12-2019 02:15:52,842  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.VerifiableActivity
+17-12-2019 02:15:52,842  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.login.Role
+17-12-2019 02:15:52,843  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.login.Role
+17-12-2019 02:15:52,843  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.login.Role
+17-12-2019 02:15:52,843  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.login.User
+17-12-2019 02:15:52,844  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.login.User
+17-12-2019 02:15:52,845  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.login.User
+17-12-2019 02:15:52,845  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.login.UserRole
+17-12-2019 02:15:52,845  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.login.UserRole
+17-12-2019 02:15:52,845  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.login.UserRole
+17-12-2019 02:15:52,846  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.platform.AbstractPlatform
+17-12-2019 02:15:52,847  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.platform.AbstractPlatform
+17-12-2019 02:15:52,847  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.platform.AbstractPlatform
+17-12-2019 02:15:52,847  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.platform.BlackboardPlatform
+17-12-2019 02:15:52,882  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.platform.BlackboardPlatform
+17-12-2019 02:15:52,882  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.platform.BlackboardPlatform
+17-12-2019 02:15:52,883  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.platform.PlatformCreator
+17-12-2019 02:15:52,883  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.platform.PlatformCreator
+17-12-2019 02:15:52,883  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.platform.PlatformCreator
+17-12-2019 02:15:52,883  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.rubric.Rubric
+17-12-2019 02:15:52,883  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.rubric.Rubric
+17-12-2019 02:15:52,883  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.rubric.Rubric
+17-12-2019 02:15:52,883  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.rubric.RubricCriterionLevel
+17-12-2019 02:15:52,883  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.rubric.RubricCriterionLevel
+17-12-2019 02:15:52,883  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.rubric.RubricCriterionLevel
+17-12-2019 02:15:52,884  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.rubric.RubricCriterionLevelAnswer
+17-12-2019 02:15:52,884  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.rubric.RubricCriterionLevelAnswer
+17-12-2019 02:15:52,885  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.rubric.RubricCriterionLevelAnswer
+17-12-2019 02:15:52,885  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.rubric.RubricLevelFeedback
+17-12-2019 02:15:52,885  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.rubric.RubricLevelFeedback
+17-12-2019 02:15:52,885  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.rubric.RubricLevelFeedback
+17-12-2019 02:15:52,886  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.rubric.RubricOutcome
+17-12-2019 02:15:52,886  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.rubric.RubricOutcome
+17-12-2019 02:15:52,886  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.rubric.RubricOutcome
+17-12-2019 02:15:52,886  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.rubric.RubricOutcomeCriterion
+17-12-2019 02:15:52,890  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.rubric.RubricOutcomeCriterion
+17-12-2019 02:15:52,890  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.rubric.RubricOutcomeCriterion
+17-12-2019 02:15:52,890  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.rubric.RubricPlatformActivity
+17-12-2019 02:15:52,892  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.rubric.RubricPlatformActivity
+17-12-2019 02:15:52,892  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.rubric.RubricPlatformActivity
+17-12-2019 02:15:52,934  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.rubric.StudentRubricAnswer
+17-12-2019 02:15:52,934  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.rubric.StudentRubricAnswer
+17-12-2019 02:15:52,934  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.rubric.StudentRubricAnswer
+17-12-2019 02:16:45,159  INFO webxml.WebxmlGrailsPlugin - Loading default config file: class DefaultWebXmlConfig
+17-12-2019 02:16:45,175  WARN webxml.WebxmlGrailsPlugin - Did not find application config file: WebXmlConfig
+17-12-2019 02:16:45,847  INFO webxml.WebxmlGrailsPlugin - Loading default config file: class DefaultWebXmlConfig
+17-12-2019 02:16:45,847  WARN webxml.WebxmlGrailsPlugin - Did not find application config file: WebXmlConfig
+17-12-2019 02:16:50,076  INFO [localhost].[/IP18GAA] - Initializing Spring root WebApplicationContext
+17-12-2019 02:16:54,952  INFO hibernate4.HibernatePluginSupport - Set db generation strategy to 'create' for datasource DEFAULT
+17-12-2019 02:16:56,577  INFO cache.CacheBeanPostProcessor - postProcessBeanDefinitionRegistry start
+17-12-2019 02:16:56,593  INFO cache.CacheBeanPostProcessor - postProcessBeanFactory
+17-12-2019 02:16:59,296  WARN config.ConfigurationFactory - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/awake/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+17-12-2019 02:17:01,156 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table activity drop foreign key FK_3pcvvm76e6kakj28jkrk134gj
+17-12-2019 02:17:01,156 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.activity' doesn't exist
+17-12-2019 02:17:01,156 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table activity drop foreign key FK_lnxhv40oweb8aylwo70vwhfbq
+17-12-2019 02:17:01,156 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.activity' doesn't exist
+17-12-2019 02:17:01,156 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table activity_outcome drop foreign key FK_ipr1888qc93qfl5hqh3eh4j54
+17-12-2019 02:17:01,156 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.activity_outcome' doesn't exist
+17-12-2019 02:17:01,156 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table activity_outcome drop foreign key FK_2onhslavtf9djf2jbydry2war
+17-12-2019 02:17:01,156 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.activity_outcome' doesn't exist
+17-12-2019 02:17:01,156 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table available_platform drop foreign key FK_5s84x15yeqep71n3i8fg7usb3
+17-12-2019 02:17:01,156 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.available_platform' doesn't exist
+17-12-2019 02:17:01,156 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table category drop foreign key FK_dts97wsf61oyj756rv0b0nt8y
+17-12-2019 02:17:01,156 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.category' doesn't exist
+17-12-2019 02:17:01,156 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table course drop foreign key FK_p089is2tk5w5j5s4ch7uq01g4
+17-12-2019 02:17:01,156 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.course' doesn't exist
+17-12-2019 02:17:01,156 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table course drop foreign key FK_ksauq8eeid9wp33521l9xxiu9
+17-12-2019 02:17:01,156 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.course' doesn't exist
+17-12-2019 02:17:01,171 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table module drop foreign key FK_2lt124vqnp9musom3ou4hdx08
+17-12-2019 02:17:01,171 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.module' doesn't exist
+17-12-2019 02:17:01,171 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table module drop foreign key FK_nol1mridjnr6rj3oj1jtl9h9g
+17-12-2019 02:17:01,171 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.module' doesn't exist
+17-12-2019 02:17:01,171 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table module_outcome drop foreign key FK_8rqut5wrt7n6o5n34smscjl3r
+17-12-2019 02:17:01,171 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.module_outcome' doesn't exist
+17-12-2019 02:17:01,171 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table module_outcome drop foreign key FK_mxfbaxrypmg2rhsjhsogy8pg7
+17-12-2019 02:17:01,171 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.module_outcome' doesn't exist
+17-12-2019 02:17:01,171 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table outcome drop foreign key FK_o4oc5sto6u9vurc7mkn31v6vj
+17-12-2019 02:17:01,171 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.outcome' doesn't exist
+17-12-2019 02:17:01,171 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table rubric drop foreign key FK_bi5quk42mmx5pocrn7krst39v
+17-12-2019 02:17:01,171 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.rubric' doesn't exist
+17-12-2019 02:17:01,171 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table rubric_criterion_level drop foreign key FK_6p1avnforkbc14flih6ikhdbs
+17-12-2019 02:17:01,171 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.rubric_criterion_level' doesn't exist
+17-12-2019 02:17:01,171 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table rubric_criterion_level_answer drop foreign key FK_qareyh2mppayd1t2vic17p86f
+17-12-2019 02:17:01,171 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.rubric_criterion_level_answer' doesn't exist
+17-12-2019 02:17:01,171 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table rubric_level_feedback drop foreign key FK_3nhm1562phpb24n4uwax5l9ru
+17-12-2019 02:17:01,171 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.rubric_level_feedback' doesn't exist
+17-12-2019 02:17:01,171 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table rubric_outcome drop foreign key FK_6a21adwb0bs5a9tkka9h3xyox
+17-12-2019 02:17:01,171 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.rubric_outcome' doesn't exist
+17-12-2019 02:17:01,187 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table rubric_outcome_criterion drop foreign key FK_2d7roud1x9f11nsujedgcjhml
+17-12-2019 02:17:01,187 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.rubric_outcome_criterion' doesn't exist
+17-12-2019 02:17:01,187 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table rubric_platform_activity drop foreign key FK_cyw10c5d7s9lo6u94oanqk8uk
+17-12-2019 02:17:01,187 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.rubric_platform_activity' doesn't exist
+17-12-2019 02:17:01,187 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table rubric_platform_activity drop foreign key FK_itvyp4ub417vby8ode5gy6m8t
+17-12-2019 02:17:01,187 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.rubric_platform_activity' doesn't exist
+17-12-2019 02:17:01,187 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table rubric_platform_activity_student_rubric_answer drop foreign key FK_pf0ukqyw7wfp65k14p410gaxq
+17-12-2019 02:17:01,187 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.rubric_platform_activity_student_rubric_answer' doesn't exist
+17-12-2019 02:17:01,187 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table rubric_platform_activity_student_rubric_answer drop foreign key FK_tbgtvnrq553abnv5ov9dnoqst
+17-12-2019 02:17:01,187 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.rubric_platform_activity_student_rubric_answer' doesn't exist
+17-12-2019 02:17:01,187 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table student_rubric_answer_rubric_criterion_level_answer drop foreign key FK_urfwn7b0y3vcdyfaj22g8qqq
+17-12-2019 02:17:01,187 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.student_rubric_answer_rubric_criterion_level_answer' doesn't exist
+17-12-2019 02:17:01,187 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table student_rubric_answer_rubric_criterion_level_answer drop foreign key FK_mq9r8mrq6w6x0tl1usxwj0ccl
+17-12-2019 02:17:01,187 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.student_rubric_answer_rubric_criterion_level_answer' doesn't exist
+17-12-2019 02:17:01,187 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table student_verifiable_activity drop foreign key FK_a0qs107d529k06bq159kauapw
+17-12-2019 02:17:01,187 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.student_verifiable_activity' doesn't exist
+17-12-2019 02:17:01,187 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table student_verifiable_activity drop foreign key FK_lg7hufav965cue5corlp8g9b4
+17-12-2019 02:17:01,187 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.student_verifiable_activity' doesn't exist
+17-12-2019 02:17:01,187 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table user_role drop foreign key FK_it77eq964jhfqtu54081ebtio
+17-12-2019 02:17:01,187 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.user_role' doesn't exist
+17-12-2019 02:17:01,187 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table user_role drop foreign key FK_apcc8lxk2xnug8377fatvbn04
+17-12-2019 02:17:01,187 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.user_role' doesn't exist
+17-12-2019 02:17:05,436  INFO scaffolding.AbstractGrailsTemplateGenerator - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@23b7762e: startup date [Tue Dec 17 02:16:56 COT 2019]; parent: Root WebApplicationContext]
+17-12-2019 02:17:11,534  INFO databasemigration.MigrationRunner - updateOnStart disabled for dataSource; not running migrations
+17-12-2019 02:17:11,623  INFO ScaffoldingGrailsPlugin - configuring scaffolding...
+17-12-2019 02:17:11,765  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Activity
+17-12-2019 02:17:12,997  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.ActivityOutcome
+17-12-2019 02:17:13,519  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.AvailablePlatform
+17-12-2019 02:17:14,018  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Category
+17-12-2019 02:17:14,455  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Course
+17-12-2019 02:17:14,856  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.GAA
+17-12-2019 02:17:15,250  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Module
+17-12-2019 02:17:15,628  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.ModuleOutcome
+17-12-2019 02:17:16,034  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Outcome
+17-12-2019 02:17:16,404  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.VerifiableActivity
+17-12-2019 02:17:16,738  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.Role
+17-12-2019 02:17:17,144  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.User
+17-12-2019 02:17:17,488  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.UserRole
+17-12-2019 02:17:17,801  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.platform.BlackboardPlatform
+17-12-2019 02:17:18,160  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.platform.PlatformCreator
+17-12-2019 02:17:18,507  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.Rubric
+17-12-2019 02:17:20,164  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricCriterionLevelAnswer
+17-12-2019 02:17:20,593  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricCriterionLevel
+17-12-2019 02:17:20,974  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricLevelFeedback
+17-12-2019 02:17:21,303  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcome
+17-12-2019 02:17:21,646  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcomeCriterion
+17-12-2019 02:17:21,975  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricPlatformActivity
+17-12-2019 02:17:22,303  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.StudentRubricAnswer
+17-12-2019 02:17:22,647  INFO ScaffoldingGrailsPlugin - done configuring scaffolding.
+17-12-2019 02:17:22,740  INFO context.GrailsConfigUtils - [GrailsContextLoader] Grails application loaded.
+17-12-2019 02:17:23,178  INFO conf.BootStrap - Creado el rol: ROLE_ADMIN
+17-12-2019 02:17:23,178  INFO conf.BootStrap - Creado el rol: ROLE_STUDENT
+17-12-2019 02:17:23,193  INFO conf.BootStrap - Creado el rol: ROLE_PROFESSOR
+17-12-2019 02:17:23,490  INFO conf.BootStrap - Creado el usuario: cr.calle
+17-12-2019 02:17:23,600  INFO conf.BootStrap - Creado el usuario: se-busto
+17-12-2019 02:17:23,709  INFO conf.BootStrap - Creado el usuario: danielsantamariarod
+17-12-2019 02:17:23,819  INFO conf.BootStrap - Creado el usuario: gcortes
+17-12-2019 02:17:23,928  INFO conf.BootStrap - Creado el usuario: wa.rodriguezm
+17-12-2019 02:17:24,022  INFO conf.BootStrap - Creado el usuario: js.preciado
+17-12-2019 02:17:24,128  INFO conf.BootStrap - Creado el usuario: mf.higuera
+17-12-2019 02:17:24,250  INFO conf.BootStrap - Creado el usuario: ana-vela
+17-12-2019 02:17:24,469  INFO [localhost].[/IP18GAA] - Initializing Spring FrameworkServlet 'grails'
+17-12-2019 02:17:24,532  INFO http11.Http11Protocol - Starting ProtocolHandler ["http-bio-8080"]
+17-12-2019 02:21:44,277  INFO [localhost].[/IP18GAA] - Initializing Spring FrameworkServlet 'gsp'
+17-12-2019 02:21:44,277  INFO [localhost].[/IP18GAA] - GSP servlet initialized
+17-12-2019 02:26:37,871  INFO [localhost].[/IP18GAA] - GroovyPagesServlet:  "/WEB-INF/grails-app/views/course/select.gsp" not found
+17-12-2019 02:28:40,423 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/course/showDashboard
+Cannot get property 'value' on null object. Stacktrace follows:
+java.lang.NullPointerException: Cannot get property 'value' on null object
+	at co.edu.uniandes.gaa.CourseController.buildData(CourseController.groovy:504)
+	at co.edu.uniandes.gaa.CourseController.showDashboard(CourseController.groovy:228)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+17-12-2019 02:29:51,944 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/course/showDashboard
+Cannot get property 'value' on null object. Stacktrace follows:
+java.lang.NullPointerException: Cannot get property 'value' on null object
+	at co.edu.uniandes.gaa.CourseController.buildData(CourseController.groovy:504)
+	at co.edu.uniandes.gaa.CourseController.showDashboard(CourseController.groovy:228)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+17-12-2019 02:36:15,017 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/course/showDashboard
+Cannot get property 'value' on null object. Stacktrace follows:
+java.lang.NullPointerException: Cannot get property 'value' on null object
+	at co.edu.uniandes.gaa.CourseController.buildData(CourseController.groovy:504)
+	at co.edu.uniandes.gaa.CourseController.showDashboard(CourseController.groovy:228)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+17-12-2019 02:37:33,142 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/course/showDashboard
+Cannot get property 'value' on null object. Stacktrace follows:
+java.lang.NullPointerException: Cannot get property 'value' on null object
+	at co.edu.uniandes.gaa.CourseController.buildData(CourseController.groovy:504)
+	at co.edu.uniandes.gaa.CourseController.showDashboard(CourseController.groovy:228)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+17-12-2019 02:37:58,677 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/course/showDashboard
+Cannot get property 'value' on null object. Stacktrace follows:
+java.lang.NullPointerException: Cannot get property 'value' on null object
+	at co.edu.uniandes.gaa.CourseController.buildData(CourseController.groovy:504)
+	at co.edu.uniandes.gaa.CourseController.showDashboard(CourseController.groovy:228)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+17-12-2019 18:34:19,597  INFO webxml.WebxmlGrailsPlugin - Loading default config file: class DefaultWebXmlConfig
+17-12-2019 18:34:19,613  WARN webxml.WebxmlGrailsPlugin - Did not find application config file: WebXmlConfig
+17-12-2019 18:34:20,875  INFO webxml.WebxmlGrailsPlugin - Loading default config file: class DefaultWebXmlConfig
+17-12-2019 18:34:20,875  WARN webxml.WebxmlGrailsPlugin - Did not find application config file: WebXmlConfig
+17-12-2019 18:34:25,493  INFO [localhost].[/IP18GAA] - Initializing Spring root WebApplicationContext
+17-12-2019 18:34:30,774  INFO hibernate4.HibernatePluginSupport - Set db generation strategy to 'create' for datasource DEFAULT
+17-12-2019 18:34:32,272  INFO cache.CacheBeanPostProcessor - postProcessBeanDefinitionRegistry start
+17-12-2019 18:34:32,288  INFO cache.CacheBeanPostProcessor - postProcessBeanFactory
+17-12-2019 18:34:35,541  WARN config.ConfigurationFactory - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/awake/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+17-12-2019 18:34:42,191  INFO scaffolding.AbstractGrailsTemplateGenerator - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@1362594b: startup date [Tue Dec 17 18:34:31 COT 2019]; parent: Root WebApplicationContext]
+17-12-2019 18:34:47,168  INFO databasemigration.MigrationRunner - updateOnStart disabled for dataSource; not running migrations
+17-12-2019 18:34:47,230  INFO ScaffoldingGrailsPlugin - configuring scaffolding...
+17-12-2019 18:34:47,261  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Activity
+17-12-2019 18:34:48,525  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.ActivityOutcome
+17-12-2019 18:34:49,293  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.AvailablePlatform
+17-12-2019 18:34:49,868  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Category
+17-12-2019 18:34:50,401  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Course
+17-12-2019 18:34:51,621  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.GAA
+17-12-2019 18:34:52,008  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Module
+17-12-2019 18:34:52,351  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.ModuleOutcome
+17-12-2019 18:34:52,785  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Outcome
+17-12-2019 18:34:53,107  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.VerifiableActivity
+17-12-2019 18:34:53,465  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.Role
+17-12-2019 18:34:53,824  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.User
+17-12-2019 18:34:54,289  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.UserRole
+17-12-2019 18:34:54,621  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.platform.BlackboardPlatform
+17-12-2019 18:34:55,009  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.platform.PlatformCreator
+17-12-2019 18:34:55,461  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.Rubric
+17-12-2019 18:34:55,807  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricCriterionLevelAnswer
+17-12-2019 18:34:56,224  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricCriterionLevel
+17-12-2019 18:34:56,626  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricLevelFeedback
+17-12-2019 18:34:57,003  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcome
+17-12-2019 18:34:57,479  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcomeCriterion
+17-12-2019 18:34:57,853  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricPlatformActivity
+17-12-2019 18:34:58,212  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.StudentRubricAnswer
+17-12-2019 18:34:58,525  INFO ScaffoldingGrailsPlugin - done configuring scaffolding.
+17-12-2019 18:34:58,710  INFO context.GrailsConfigUtils - [GrailsContextLoader] Grails application loaded.
+17-12-2019 18:34:59,130  INFO conf.BootStrap - Creado el rol: ROLE_ADMIN
+17-12-2019 18:34:59,130  INFO conf.BootStrap - Creado el rol: ROLE_STUDENT
+17-12-2019 18:34:59,145  INFO conf.BootStrap - Creado el rol: ROLE_PROFESSOR
+17-12-2019 18:34:59,509  INFO conf.BootStrap - Creado el usuario: cr.calle
+17-12-2019 18:34:59,637  INFO conf.BootStrap - Creado el usuario: se-busto
+17-12-2019 18:34:59,757  INFO conf.BootStrap - Creado el usuario: danielsantamariarod
+17-12-2019 18:34:59,861  INFO conf.BootStrap - Creado el usuario: gcortes
+17-12-2019 18:34:59,971  INFO conf.BootStrap - Creado el usuario: wa.rodriguezm
+17-12-2019 18:35:00,075  INFO conf.BootStrap - Creado el usuario: js.preciado
+17-12-2019 18:35:00,199  INFO conf.BootStrap - Creado el usuario: mf.higuera
+17-12-2019 18:35:00,300  INFO conf.BootStrap - Creado el usuario: ana-vela
+17-12-2019 18:35:00,485  INFO [localhost].[/IP18GAA] - Initializing Spring FrameworkServlet 'grails'
+17-12-2019 18:35:00,633  INFO http11.Http11Protocol - Starting ProtocolHandler ["http-bio-8080"]
+17-12-2019 18:35:22,116  INFO [localhost].[/IP18GAA] - Initializing Spring FrameworkServlet 'gsp'
+17-12-2019 18:35:22,116  INFO [localhost].[/IP18GAA] - GSP servlet initialized
+17-12-2019 18:35:39,641  INFO [localhost].[/IP18GAA] - GroovyPagesServlet:  "/WEB-INF/grails-app/views/course/select.gsp" not found
+17-12-2019 18:39:45,421 ERROR errors.GrailsExceptionResolver - UnknownHostException occurred when processing request: [GET] /IP18GAA/course/showDashboard
+sicuaplus.uniandes.edu.co. Stacktrace follows:
+java.net.UnknownHostException: sicuaplus.uniandes.edu.co
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:172)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at grails.plugins.rest.client.RestBuilder.invokeRestTemplate(RestBuilder.groovy:312)
+	at grails.plugins.rest.client.RestBuilder.doRequestInternal(RestBuilder.groovy:273)
+	at grails.plugins.rest.client.RestBuilder.doRequestInternal(RestBuilder.groovy:261)
+	at grails.plugins.rest.client.RestBuilder.post(RestBuilder.groovy:147)
+	at co.edu.uniandes.platform.BlackboardPlatform.connect(BlackboardPlatform.groovy:36)
+	at co.edu.uniandes.platform.BlackboardPlatform.connect(BlackboardPlatform.groovy:24)
+	at co.edu.uniandes.gaa.CourseController.showDashboard(CourseController.groovy:223)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+17-12-2019 19:18:58,953  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricOutcomeController.groovy] changed. Applying changes to application.
+17-12-2019 19:18:58,954  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricOutcomeController.groovy] changed. Applying changes to application.
+17-12-2019 19:19:00,124  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricOutcomeController.groovy] changed. Applying changes to application.
+17-12-2019 19:19:01,458  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcome
+17-12-2019 19:19:01,709  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricOutcomeController.groovy] changed. Applying changes to application.
+17-12-2019 19:19:03,648  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcome
+17-12-2019 19:22:12,956  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricOutcomeCriterionController.groovy] changed. Applying changes to application.
+17-12-2019 19:22:12,957  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricOutcomeCriterionController.groovy] changed. Applying changes to application.
+17-12-2019 19:22:13,812  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricOutcomeCriterionController.groovy] changed. Applying changes to application.
+17-12-2019 19:22:13,960  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricOutcomeCriterionController.groovy] changed. Applying changes to application.
+17-12-2019 19:22:14,640  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcomeCriterion
+17-12-2019 19:40:25,243  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+17-12-2019 19:40:25,243  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+17-12-2019 19:40:25,987  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+17-12-2019 19:40:26,895  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+17-12-2019 19:40:28,036 ERROR agent.Watcher - FileWatcher caught serious error, see cause
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "co/edu/uniandes/rubric/RubricService$_saveRubric_closure1$$DRkxdElI"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:642)
+	at java.lang.Thread.run(Thread.java:745)
+17-12-2019 19:40:28,046 ERROR agent.Watcher - FileWatcher caught serious error, see cause
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "co/edu/uniandes/rubric/RubricService$$DRkxdElI"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:642)
+	at java.lang.Thread.run(Thread.java:745)
+17-12-2019 19:40:32,409  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricOutcomeCriterionController.groovy] changed. Applying changes to application.
+17-12-2019 19:40:32,410  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricOutcomeCriterionController.groovy] changed. Applying changes to application.
+17-12-2019 19:40:32,993  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricOutcomeCriterionController.groovy] changed. Applying changes to application.
+17-12-2019 19:40:33,347  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricOutcomeCriterionController.groovy] changed. Applying changes to application.
+17-12-2019 19:40:33,878  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcomeCriterion
+17-12-2019 19:41:29,599 ERROR errors.GrailsExceptionResolver - MissingPropertyException occurred when processing request: [POST] /IP18GAA/rubricOutcomeCriterion/saveCriterion - parameters:
+guardar: guardar
+name: prueba criterio
+description: daf
+id: 
+idOutcome: 1
+No such property: outcome for class: co.edu.uniandes.rubric.RubricService. Stacktrace follows:
+groovy.lang.MissingPropertyException: No such property: outcome for class: co.edu.uniandes.rubric.RubricService
+	at co.edu.uniandes.rubric.RubricService$$ERkxdElI.$tt__saveCriterion(RubricService.groovy:96)
+	at co.edu.uniandes.rubric.RubricOutcomeCriterionController$$ERkxdGZ7.saveCriterion(RubricOutcomeCriterionController.groovy:16)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+17-12-2019 19:42:19,163  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+17-12-2019 19:42:19,163  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+17-12-2019 19:42:20,052  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+17-12-2019 19:42:20,147  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+17-12-2019 19:42:23,066 ERROR errors.GrailsExceptionResolver - MissingMethodException occurred when processing request: [POST] /IP18GAA/rubricOutcomeCriterion/saveCriterion - parameters:
+guardar: guardar
+name: prueba criterio
+description: daf
+id: 
+idOutcome: 1
+No signature of method: co.edu.uniandes.rubric.RubricOutcome.addToRubricOutcomesCriteria() is applicable for argument types: (co.edu.uniandes.rubric.RubricOutcome) values: [pruebaComp - 1]
+Possible solutions: addToRubricOutcomesCriteria(java.lang.Object), getRubricOutcomesCriteria(). Stacktrace follows:
+groovy.lang.MissingMethodException: No signature of method: co.edu.uniandes.rubric.RubricOutcome.addToRubricOutcomesCriteria() is applicable for argument types: (co.edu.uniandes.rubric.RubricOutcome) values: [pruebaComp - 1]
+Possible solutions: addToRubricOutcomesCriteria(java.lang.Object), getRubricOutcomesCriteria()
+	at co.edu.uniandes.rubric.RubricService$$ERkxdiKB.$tt__saveCriterion(RubricService.groovy:111)
+	at co.edu.uniandes.rubric.RubricOutcomeCriterionController$$ERkxdGZ7.saveCriterion(RubricOutcomeCriterionController.groovy:16)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+17-12-2019 19:43:02,785  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+17-12-2019 19:43:02,786  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+17-12-2019 19:43:03,462  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+17-12-2019 19:43:03,810  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+17-12-2019 19:44:09,761  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+17-12-2019 19:44:09,761  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+17-12-2019 19:44:10,335  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+17-12-2019 19:44:10,919  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+17-12-2019 19:44:17,442 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idRubric: rubric.id]] on line [15]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:36)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:70)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure13.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:36)
+	... 10 more
+17-12-2019 19:44:17,637  INFO [localhost].[/IP18GAA] - Initializing Spring FrameworkServlet 'grails-errorhandler'
+17-12-2019 22:01:59,463  INFO webxml.WebxmlGrailsPlugin - Loading default config file: class DefaultWebXmlConfig
+17-12-2019 22:01:59,478  WARN webxml.WebxmlGrailsPlugin - Did not find application config file: WebXmlConfig
+17-12-2019 22:02:00,737  INFO webxml.WebxmlGrailsPlugin - Loading default config file: class DefaultWebXmlConfig
+17-12-2019 22:02:00,752  WARN webxml.WebxmlGrailsPlugin - Did not find application config file: WebXmlConfig
+17-12-2019 22:02:06,827  INFO [localhost].[/IP18GAA] - Initializing Spring root WebApplicationContext
+17-12-2019 22:02:13,552  INFO hibernate4.HibernatePluginSupport - Set db generation strategy to 'create' for datasource DEFAULT
+17-12-2019 22:02:15,024  INFO cache.CacheBeanPostProcessor - postProcessBeanDefinitionRegistry start
+17-12-2019 22:02:15,033  INFO cache.CacheBeanPostProcessor - postProcessBeanFactory
+17-12-2019 22:02:17,602  WARN config.ConfigurationFactory - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/awake/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+17-12-2019 22:02:25,054  INFO scaffolding.AbstractGrailsTemplateGenerator - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@4acbb8d9: startup date [Tue Dec 17 22:02:14 COT 2019]; parent: Root WebApplicationContext]
+17-12-2019 22:02:29,048  INFO ScaffoldingGrailsPlugin - configuring scaffolding...
+17-12-2019 22:02:29,079  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Activity
+17-12-2019 22:02:30,164  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.ActivityOutcome
+17-12-2019 22:02:30,679  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.AvailablePlatform
+17-12-2019 22:02:31,086  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Category
+17-12-2019 22:02:32,276  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Course
+17-12-2019 22:02:32,651  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.GAA
+17-12-2019 22:02:33,036  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Module
+17-12-2019 22:02:33,404  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.ModuleOutcome
+17-12-2019 22:02:33,853  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Outcome
+17-12-2019 22:02:34,293  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.VerifiableActivity
+17-12-2019 22:02:34,695  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.Role
+17-12-2019 22:02:35,102  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.User
+17-12-2019 22:02:35,468  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.UserRole
+17-12-2019 22:02:35,843  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.platform.BlackboardPlatform
+17-12-2019 22:02:36,358  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.platform.PlatformCreator
+17-12-2019 22:02:36,702  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.Rubric
+17-12-2019 22:02:37,145  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricCriterionLevelAnswer
+17-12-2019 22:02:37,629  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricCriterionLevel
+17-12-2019 22:02:38,082  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricLevelFeedback
+17-12-2019 22:02:38,457  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcome
+17-12-2019 22:02:38,836  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcomeCriterion
+17-12-2019 22:02:39,196  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricPlatformActivity
+17-12-2019 22:02:39,669  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.StudentRubricAnswer
+17-12-2019 22:02:40,115  INFO ScaffoldingGrailsPlugin - done configuring scaffolding.
+17-12-2019 22:02:40,974  INFO databasemigration.MigrationRunner - updateOnStart disabled for dataSource; not running migrations
+17-12-2019 22:02:41,184  INFO context.GrailsConfigUtils - [GrailsContextLoader] Grails application loaded.
+17-12-2019 22:02:41,803  INFO conf.BootStrap - Creado el rol: ROLE_ADMIN
+17-12-2019 22:02:41,819  INFO conf.BootStrap - Creado el rol: ROLE_STUDENT
+17-12-2019 22:02:41,834  INFO conf.BootStrap - Creado el rol: ROLE_PROFESSOR
+17-12-2019 22:02:42,234  INFO conf.BootStrap - Creado el usuario: cr.calle
+17-12-2019 22:02:42,366  INFO conf.BootStrap - Creado el usuario: se-busto
+17-12-2019 22:02:42,509  INFO conf.BootStrap - Creado el usuario: danielsantamariarod
+17-12-2019 22:02:42,635  INFO conf.BootStrap - Creado el usuario: gcortes
+17-12-2019 22:02:42,775  INFO conf.BootStrap - Creado el usuario: wa.rodriguezm
+17-12-2019 22:02:42,885  INFO conf.BootStrap - Creado el usuario: js.preciado
+17-12-2019 22:02:43,025  INFO conf.BootStrap - Creado el usuario: mf.higuera
+17-12-2019 22:02:43,194  INFO conf.BootStrap - Creado el usuario: ana-vela
+17-12-2019 22:02:43,600  INFO [localhost].[/IP18GAA] - Initializing Spring FrameworkServlet 'grails'
+17-12-2019 22:02:43,855  INFO http11.Http11Protocol - Starting ProtocolHandler ["http-bio-8080"]
+17-12-2019 22:02:44,012  INFO [localhost].[/IP18GAA] - Initializing Spring FrameworkServlet 'gsp'
+17-12-2019 22:02:44,012  INFO [localhost].[/IP18GAA] - GSP servlet initialized
+17-12-2019 22:04:03,961  INFO [localhost].[/IP18GAA] - GroovyPagesServlet:  "/WEB-INF/grails-app/views/course/select.gsp" not found
+17-12-2019 22:05:24,539  INFO webxml.WebxmlGrailsPlugin - Loading default config file: class DefaultWebXmlConfig
+17-12-2019 22:05:24,559  WARN webxml.WebxmlGrailsPlugin - Did not find application config file: WebXmlConfig
+17-12-2019 22:05:25,328  INFO webxml.WebxmlGrailsPlugin - Loading default config file: class DefaultWebXmlConfig
+17-12-2019 22:05:25,345  WARN webxml.WebxmlGrailsPlugin - Did not find application config file: WebXmlConfig
+17-12-2019 22:05:30,172  INFO [localhost].[/IP18GAA] - Initializing Spring root WebApplicationContext
+17-12-2019 22:05:36,191  INFO hibernate4.HibernatePluginSupport - Set db generation strategy to '' for datasource DEFAULT
+17-12-2019 22:05:37,874  INFO cache.CacheBeanPostProcessor - postProcessBeanDefinitionRegistry start
+17-12-2019 22:05:37,876  INFO cache.CacheBeanPostProcessor - postProcessBeanFactory
+17-12-2019 22:05:39,728  WARN config.ConfigurationFactory - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/awake/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+17-12-2019 22:05:42,969  INFO scaffolding.AbstractGrailsTemplateGenerator - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@23b7762e: startup date [Tue Dec 17 22:05:37 COT 2019]; parent: Root WebApplicationContext]
+17-12-2019 22:05:48,200  INFO databasemigration.MigrationRunner - updateOnStart disabled for dataSource; not running migrations
+17-12-2019 22:05:48,239  INFO ScaffoldingGrailsPlugin - configuring scaffolding...
+17-12-2019 22:05:48,270  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Activity
+17-12-2019 22:05:49,570  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.ActivityOutcome
+17-12-2019 22:05:50,078  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.AvailablePlatform
+17-12-2019 22:05:50,575  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Category
+17-12-2019 22:05:51,225  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Course
+17-12-2019 22:05:51,816  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.GAA
+17-12-2019 22:05:52,323  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Module
+17-12-2019 22:05:52,751  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.ModuleOutcome
+17-12-2019 22:05:54,631  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Outcome
+17-12-2019 22:05:55,085  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.VerifiableActivity
+17-12-2019 22:05:55,474  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.Role
+17-12-2019 22:05:55,851  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.User
+17-12-2019 22:05:56,186  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.UserRole
+17-12-2019 22:05:56,544  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.platform.BlackboardPlatform
+17-12-2019 22:05:56,962  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.platform.PlatformCreator
+17-12-2019 22:05:57,313  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.Rubric
+17-12-2019 22:05:57,728  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricCriterionLevelAnswer
+17-12-2019 22:05:58,163  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricCriterionLevel
+17-12-2019 22:05:58,543  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricLevelFeedback
+17-12-2019 22:05:58,939  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcome
+17-12-2019 22:05:59,348  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcomeCriterion
+17-12-2019 22:05:59,691  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricPlatformActivity
+17-12-2019 22:06:00,043  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.StudentRubricAnswer
+17-12-2019 22:06:00,475  INFO ScaffoldingGrailsPlugin - done configuring scaffolding.
+17-12-2019 22:06:00,574  INFO context.GrailsConfigUtils - [GrailsContextLoader] Grails application loaded.
+17-12-2019 22:06:01,403  INFO [localhost].[/IP18GAA] - Initializing Spring FrameworkServlet 'grails'
+17-12-2019 22:06:01,487  INFO http11.Http11Protocol - Starting ProtocolHandler ["http-bio-8080"]
+17-12-2019 22:14:39,536  INFO [localhost].[/IP18GAA] - Initializing Spring FrameworkServlet 'gsp'
+17-12-2019 22:14:39,536  INFO [localhost].[/IP18GAA] - GSP servlet initialized
+17-12-2019 22:15:51,407 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idRubric: rubric.id]] on line [15]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:36)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:70)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure13.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:36)
+	... 10 more
+17-12-2019 22:15:52,109  INFO [localhost].[/IP18GAA] - Initializing Spring FrameworkServlet 'grails-errorhandler'
+18-12-2019 16:09:37,983  INFO webxml.WebxmlGrailsPlugin - Loading default config file: class DefaultWebXmlConfig
+18-12-2019 16:09:38,018  WARN webxml.WebxmlGrailsPlugin - Did not find application config file: WebXmlConfig
+18-12-2019 16:09:39,693  INFO webxml.WebxmlGrailsPlugin - Loading default config file: class DefaultWebXmlConfig
+18-12-2019 16:09:39,700  WARN webxml.WebxmlGrailsPlugin - Did not find application config file: WebXmlConfig
+18-12-2019 16:09:46,897  INFO [localhost].[/IP18GAA] - Initializing Spring root WebApplicationContext
+18-12-2019 16:09:56,097  INFO hibernate4.HibernatePluginSupport - Set db generation strategy to '' for datasource DEFAULT
+18-12-2019 16:09:58,775  INFO cache.CacheBeanPostProcessor - postProcessBeanDefinitionRegistry start
+18-12-2019 16:09:58,785  INFO cache.CacheBeanPostProcessor - postProcessBeanFactory
+18-12-2019 16:10:01,498  WARN config.ConfigurationFactory - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/awake/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+18-12-2019 16:10:06,264  INFO scaffolding.AbstractGrailsTemplateGenerator - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@26ec93ec: startup date [Wed Dec 18 16:09:58 COT 2019]; parent: Root WebApplicationContext]
+18-12-2019 16:10:13,970  INFO databasemigration.MigrationRunner - updateOnStart disabled for dataSource; not running migrations
+18-12-2019 16:10:14,026  INFO ScaffoldingGrailsPlugin - configuring scaffolding...
+18-12-2019 16:10:14,064  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Activity
+18-12-2019 16:10:15,385  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.ActivityOutcome
+18-12-2019 16:10:16,022  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.AvailablePlatform
+18-12-2019 16:10:16,750  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Category
+18-12-2019 16:10:17,414  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Course
+18-12-2019 16:10:18,119  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.GAA
+18-12-2019 16:10:18,717  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Module
+18-12-2019 16:10:19,347  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.ModuleOutcome
+18-12-2019 16:10:19,904  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Outcome
+18-12-2019 16:10:20,434  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.VerifiableActivity
+18-12-2019 16:10:20,931  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.Role
+18-12-2019 16:10:21,435  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.User
+18-12-2019 16:10:21,985  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.UserRole
+18-12-2019 16:10:22,373  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.platform.BlackboardPlatform
+18-12-2019 16:10:23,082  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.platform.PlatformCreator
+18-12-2019 16:10:24,779  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.Rubric
+18-12-2019 16:10:25,264  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricCriterionLevelAnswer
+18-12-2019 16:10:25,655  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricCriterionLevel
+18-12-2019 16:10:26,056  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricLevelFeedback
+18-12-2019 16:10:26,527  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcome
+18-12-2019 16:10:27,087  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcomeCriterion
+18-12-2019 16:10:27,560  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricPlatformActivity
+18-12-2019 16:10:28,050  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.StudentRubricAnswer
+18-12-2019 16:10:28,471  INFO ScaffoldingGrailsPlugin - done configuring scaffolding.
+18-12-2019 16:10:28,610  INFO context.GrailsConfigUtils - [GrailsContextLoader] Grails application loaded.
+18-12-2019 16:10:29,552  INFO [localhost].[/IP18GAA] - Initializing Spring FrameworkServlet 'grails'
+18-12-2019 16:10:29,986  INFO http11.Http11Protocol - Starting ProtocolHandler ["http-bio-8080"]
+18-12-2019 16:19:21,298  INFO [localhost].[/IP18GAA] - Initializing Spring FrameworkServlet 'gsp'
+18-12-2019 16:19:21,298  INFO [localhost].[/IP18GAA] - GSP servlet initialized
+18-12-2019 16:23:14,593 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idRubric: rubric.id]] on line [15]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:36)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:70)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure13.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:36)
+	... 10 more
+18-12-2019 16:23:15,202  INFO [localhost].[/IP18GAA] - Initializing Spring FrameworkServlet 'grails-errorhandler'
+18-12-2019 16:26:18,150  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricOutcomeCriterionController.groovy] changed. Applying changes to application.
+18-12-2019 16:26:18,150  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricOutcomeCriterionController.groovy] changed. Applying changes to application.
+18-12-2019 16:26:19,372  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricOutcomeCriterionController.groovy] changed. Applying changes to application.
+18-12-2019 16:26:21,067  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricOutcomeCriterionController.groovy] changed. Applying changes to application.
+18-12-2019 16:26:21,143  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcomeCriterion
+18-12-2019 16:26:57,660 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idRubric: rubric.id]] on line [15]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:36)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:70)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure13.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:36)
+	... 10 more
+18-12-2019 17:29:22,780  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricOutcomeCriterionController.groovy] changed. Applying changes to application.
+18-12-2019 17:29:22,786  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricOutcomeCriterionController.groovy] changed. Applying changes to application.
+18-12-2019 17:29:23,749  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricOutcomeCriterionController.groovy] changed. Applying changes to application.
+18-12-2019 17:29:24,357  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcomeCriterion
+18-12-2019 17:29:24,948  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricOutcomeCriterionController.groovy] changed. Applying changes to application.
+18-12-2019 17:29:26,531  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcomeCriterion
+18-12-2019 17:31:47,107  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 17:31:47,108  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 17:31:47,996  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 17:31:48,014  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 17:54:11,883 ERROR pages.GroovyPagesTemplateEngine - Compilation error compiling GSP [C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp]:startup failed:
+C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp: 61: The current scope already contains a variable of the name i
+ @ line 61, column 5.
+   int i = 0
+       ^
+
+1 error
+
+org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp: 61: The current scope already contains a variable of the name i
+ @ line 61, column 5.
+   int i = 0
+       ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:309)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:938)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:585)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:534)
+	at grails.util.CacheEntry.getValue(CacheEntry.java:144)
+	at grails.util.CacheEntry.getValue(CacheEntry.java:84)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+18-12-2019 17:54:11,931 ERROR errors.GrailsExceptionResolver - MultipleCompilationErrorsException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/1
+startup failed:
+C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp: 61: The current scope already contains a variable of the name i
+ @ line 61, column 5.
+   int i = 0
+       ^
+
+1 error
+. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Could not parse script [C:\Users\awake\workspace\IP18GAA\grails-app\views\rubric\defineRubric.gsp]: startup failed:
+C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp: 61: The current scope already contains a variable of the name i
+ @ line 61, column 5.
+   int i = 0
+       ^
+
+1 error
+
+	at grails.util.CacheEntry.getValue(CacheEntry.java:144)
+	at grails.util.CacheEntry.getValue(CacheEntry.java:84)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp: 61: The current scope already contains a variable of the name i
+ @ line 61, column 5.
+   int i = 0
+       ^
+
+1 error
+
+	at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:309)
+	at org.codehaus.groovy.control.CompilationUnit.applyToSourceUnits(CompilationUnit.java:938)
+	at org.codehaus.groovy.control.CompilationUnit.doPhaseOperation(CompilationUnit.java:585)
+	at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:534)
+	... 10 more
+18-12-2019 17:55:11,585 ERROR spring.OptimizedAutowireCapableBeanFactory - Bean couldn't be autowired using grails optimization: null
+18-12-2019 17:55:11,585 ERROR spring.OptimizedAutowireCapableBeanFactory - Retrying using spring autowire
+18-12-2019 17:55:11,585  WARN simple.MemoryPageFragmentCachingFilter - Throwable thrown during doFilter on request with URI: /IP18GAA/grails/rubricOutcomeCriterion/deleteCriterion.dispatch and Query: idRubric=1 : Error creating bean with name 'co.edu.uniandes.rubric.RubricOutcomeCriterionController': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [co.edu.uniandes.rubric.RubricOutcomeCriterionController]: Constructor threw exception; nested exception is java.lang.NullPointerException
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'co.edu.uniandes.rubric.RubricOutcomeCriterionController': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [co.edu.uniandes.rubric.RubricOutcomeCriterionController]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at grails.plugin.cache.web.filter.AbstractFilter.getBean(AbstractFilter.java:196)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.lookupController(PageFragmentCachingFilter.java:842)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:173)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [co.edu.uniandes.rubric.RubricOutcomeCriterionController]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	... 10 more
+Caused by: java.lang.NullPointerException
+	at java.beans.MethodRef.get(MethodRef.java:72)
+	at java.beans.MethodDescriptor.getMethod(MethodDescriptor.java:84)
+	... 10 more
+18-12-2019 17:55:11,601 ERROR [/IP18GAA].[grails] - Servlet.service() for servlet grails threw exception
+java.lang.NullPointerException
+	at java.beans.MethodRef.get(MethodRef.java:72)
+	at java.beans.MethodDescriptor.getMethod(MethodDescriptor.java:84)
+	at grails.plugin.cache.web.filter.AbstractFilter.getBean(AbstractFilter.java:196)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.lookupController(PageFragmentCachingFilter.java:842)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:173)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+18-12-2019 17:55:11,602 ERROR [/IP18GAA].[default] - Servlet.service() for servlet [default] in context with path [/IP18GAA] threw exception [org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'co.edu.uniandes.rubric.RubricOutcomeCriterionController': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [co.edu.uniandes.rubric.RubricOutcomeCriterionController]: Constructor threw exception; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException
+	at java.beans.MethodRef.get(MethodRef.java:72)
+	at java.beans.MethodDescriptor.getMethod(MethodDescriptor.java:84)
+	at grails.plugin.cache.web.filter.AbstractFilter.getBean(AbstractFilter.java:196)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.lookupController(PageFragmentCachingFilter.java:842)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:173)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+18-12-2019 17:57:01,304  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricOutcomeCriterionController.groovy] changed. Applying changes to application.
+18-12-2019 17:57:01,306  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricOutcomeCriterionController.groovy] changed. Applying changes to application.
+18-12-2019 17:57:01,877  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricOutcomeCriterionController.groovy] changed. Applying changes to application.
+18-12-2019 17:57:02,250  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricOutcomeCriterionController.groovy] changed. Applying changes to application.
+18-12-2019 17:57:02,971  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcomeCriterion
+18-12-2019 18:24:18,275  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 18:24:18,275  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 18:24:19,013 ERROR compiler.GrailsProjectWatcher - Compilation Error: startup failed:
+C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy: 125: unable to resolve class RubricOutcomeLevel 
+ @ line 125, column 5.
+       RubricOutcomeLevel saveLevel(params) {
+       ^
+
+C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy: 126: unable to resolve class RubricOutcomeLevel 
+ @ line 126, column 22.
+   		RubricOutcomeLevel level
+                        ^
+
+C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy: 131: unable to resolve class RubricOutcomeLevel 
+ @ line 131, column 13.
+   				level = new RubricOutcomeLevel()
+               ^
+
+3 errors
+
+18-12-2019 18:24:19,014  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 18:24:19,286 ERROR compiler.GrailsProjectWatcher - Compilation Error: startup failed:
+C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy: 125: unable to resolve class RubricOutcomeLevel 
+ @ line 125, column 5.
+       RubricOutcomeLevel saveLevel(params) {
+       ^
+
+C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy: 126: unable to resolve class RubricOutcomeLevel 
+ @ line 126, column 22.
+   		RubricOutcomeLevel level
+                        ^
+
+C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy: 131: unable to resolve class RubricOutcomeLevel 
+ @ line 131, column 13.
+   				level = new RubricOutcomeLevel()
+               ^
+
+3 errors
+
+18-12-2019 18:24:19,291  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 18:24:19,594 ERROR compiler.GrailsProjectWatcher - Compilation Error: startup failed:
+C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy: 125: unable to resolve class RubricOutcomeLevel 
+ @ line 125, column 5.
+       RubricOutcomeLevel saveLevel(params) {
+       ^
+
+C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy: 126: unable to resolve class RubricOutcomeLevel 
+ @ line 126, column 22.
+   		RubricOutcomeLevel level
+                        ^
+
+C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy: 131: unable to resolve class RubricOutcomeLevel 
+ @ line 131, column 13.
+   				level = new RubricOutcomeLevel()
+               ^
+
+3 errors
+
+18-12-2019 18:24:19,893 ERROR compiler.GrailsProjectWatcher - Compilation Error: startup failed:
+C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy: 125: unable to resolve class RubricOutcomeLevel 
+ @ line 125, column 5.
+       RubricOutcomeLevel saveLevel(params) {
+       ^
+
+C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy: 126: unable to resolve class RubricOutcomeLevel 
+ @ line 126, column 22.
+   		RubricOutcomeLevel level
+                        ^
+
+C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy: 131: unable to resolve class RubricOutcomeLevel 
+ @ line 131, column 13.
+   				level = new RubricOutcomeLevel()
+               ^
+
+3 errors
+
+18-12-2019 18:25:49,850  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 18:25:49,850  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 18:25:50,547  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 18:25:51,244  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 18:25:52,732 ERROR agent.Watcher - FileWatcher caught serious error, see cause
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "co/edu/uniandes/rubric/RubricService$_saveOutcome_closure3$$DRl3Az9W"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:642)
+	at java.lang.Thread.run(Thread.java:745)
+18-12-2019 18:25:52,751 ERROR agent.Watcher - FileWatcher caught serious error, see cause
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "co/edu/uniandes/rubric/RubricService$$DRl3Az9U"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:642)
+	at java.lang.Thread.run(Thread.java:745)
+18-12-2019 18:26:05,379  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricCriterionLevelController.groovy] changed. Applying changes to application.
+18-12-2019 18:26:05,379  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricCriterionLevelController.groovy] changed. Applying changes to application.
+18-12-2019 18:26:05,929  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricCriterionLevelController.groovy] changed. Applying changes to application.
+18-12-2019 18:26:06,169  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricCriterionLevelController.groovy] changed. Applying changes to application.
+18-12-2019 18:26:06,465  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricCriterionLevel
+18-12-2019 18:30:44,236  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricCriterionLevelController.groovy] changed. Applying changes to application.
+18-12-2019 18:30:44,238  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricCriterionLevelController.groovy] changed. Applying changes to application.
+18-12-2019 18:30:44,900  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricCriterionLevelController.groovy] changed. Applying changes to application.
+18-12-2019 18:30:45,439  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricCriterionLevelController.groovy] changed. Applying changes to application.
+18-12-2019 18:30:45,904  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricCriterionLevel
+18-12-2019 18:38:25,963  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricCriterionLevelController.groovy] changed. Applying changes to application.
+18-12-2019 18:38:25,963  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricCriterionLevelController.groovy] changed. Applying changes to application.
+18-12-2019 18:38:26,943  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricCriterionLevelController.groovy] changed. Applying changes to application.
+18-12-2019 18:38:26,944  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricCriterionLevelController.groovy] changed. Applying changes to application.
+18-12-2019 18:38:27,543  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricCriterionLevel
+18-12-2019 18:39:00,751  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricCriterionLevelController.groovy] changed. Applying changes to application.
+18-12-2019 18:39:00,751  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricCriterionLevelController.groovy] changed. Applying changes to application.
+18-12-2019 18:39:01,520  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricCriterionLevelController.groovy] changed. Applying changes to application.
+18-12-2019 18:39:01,889  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricCriterionLevelController.groovy] changed. Applying changes to application.
+18-12-2019 18:39:02,042  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricCriterionLevel
+18-12-2019 18:58:26,117 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idRubric: rubric.id]] on line [15]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:36)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:109)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure13.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:36)
+	... 10 more
+18-12-2019 18:58:53,950  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricCriterionLevelController.groovy] changed. Applying changes to application.
+18-12-2019 18:58:53,951  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricCriterionLevelController.groovy] changed. Applying changes to application.
+18-12-2019 18:58:54,691  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricCriterionLevelController.groovy] changed. Applying changes to application.
+18-12-2019 18:58:54,786  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricCriterionLevelController.groovy] changed. Applying changes to application.
+18-12-2019 18:58:55,039  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricCriterionLevel
+18-12-2019 19:01:38,560  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricOutcomeCriterionController.groovy] changed. Applying changes to application.
+18-12-2019 19:01:38,560  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricOutcomeCriterionController.groovy] changed. Applying changes to application.
+18-12-2019 19:01:39,281  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricOutcomeCriterionController.groovy] changed. Applying changes to application.
+18-12-2019 19:01:39,571  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricOutcomeCriterionController.groovy] changed. Applying changes to application.
+18-12-2019 19:01:40,082  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcomeCriterion
+18-12-2019 19:54:47,129 ERROR errors.GrailsExceptionResolver - MissingMethodException occurred when processing request: [GET] /IP18GAA/rubricCriterionLevel/deleteLevel/4 - parameters:
+idRubric: 1
+No signature of method: co.edu.uniandes.rubric.RubricService.deleteLevel() is applicable for argument types: (co.edu.uniandes.rubric.RubricCriterionLevel) values: [nueva prueba de nivelqq - 4]. Stacktrace follows:
+groovy.lang.MissingMethodException: No signature of method: co.edu.uniandes.rubric.RubricService.deleteLevel() is applicable for argument types: (co.edu.uniandes.rubric.RubricCriterionLevel) values: [nueva prueba de nivelqq - 4]
+	at co.edu.uniandes.rubric.RubricCriterionLevelController$$ERl3JJ8e.deleteLevel(RubricCriterionLevelController.groovy:31)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+18-12-2019 19:54:47,505 ERROR errors.GrailsExceptionResolver - MissingMethodException occurred when processing request: [GET] /IP18GAA/rubricCriterionLevel/deleteLevel/favicon.ico
+No signature of method: co.edu.uniandes.rubric.RubricService.deleteLevel() is applicable for argument types: (null) values: [null]. Stacktrace follows:
+groovy.lang.MissingMethodException: No signature of method: co.edu.uniandes.rubric.RubricService.deleteLevel() is applicable for argument types: (null) values: [null]
+	at co.edu.uniandes.rubric.RubricCriterionLevelController$$ERl3JJ8e.deleteLevel(RubricCriterionLevelController.groovy:31)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+18-12-2019 19:55:57,294  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 19:55:57,296  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 19:55:57,988  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 19:55:58,914  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 19:56:04,402 ERROR spring.OptimizedAutowireCapableBeanFactory - Bean couldn't be autowired using grails optimization: null
+18-12-2019 19:56:04,402 ERROR spring.OptimizedAutowireCapableBeanFactory - Retrying using spring autowire
+18-12-2019 19:56:04,405  WARN simple.MemoryPageFragmentCachingFilter - Throwable thrown during doFilter on request with URI: /IP18GAA/grails/rubricCriterionLevel/deleteLevel.dispatch and Query: idRubric=1 : Error creating bean with name 'co.edu.uniandes.rubric.RubricCriterionLevelController': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [co.edu.uniandes.rubric.RubricCriterionLevelController]: Constructor threw exception; nested exception is java.lang.NullPointerException
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'co.edu.uniandes.rubric.RubricCriterionLevelController': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [co.edu.uniandes.rubric.RubricCriterionLevelController]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at grails.plugin.cache.web.filter.AbstractFilter.getBean(AbstractFilter.java:196)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.lookupController(PageFragmentCachingFilter.java:842)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:173)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [co.edu.uniandes.rubric.RubricCriterionLevelController]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	... 10 more
+Caused by: java.lang.NullPointerException
+18-12-2019 19:56:04,406 ERROR [/IP18GAA].[grails] - Servlet.service() for servlet grails threw exception
+java.lang.NullPointerException
+18-12-2019 19:56:04,406 ERROR [/IP18GAA].[default] - Servlet.service() for servlet [default] in context with path [/IP18GAA] threw exception [org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'co.edu.uniandes.rubric.RubricCriterionLevelController': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [co.edu.uniandes.rubric.RubricCriterionLevelController]: Constructor threw exception; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException
+18-12-2019 19:56:48,003  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 19:56:48,013  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 19:56:48,798  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 19:56:48,815  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 19:56:51,973  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 19:56:51,974  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 19:56:52,607  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 19:56:53,599  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 19:57:02,017 ERROR spring.OptimizedAutowireCapableBeanFactory - Bean couldn't be autowired using grails optimization: null
+18-12-2019 19:57:02,017 ERROR spring.OptimizedAutowireCapableBeanFactory - Retrying using spring autowire
+18-12-2019 19:57:02,017  WARN simple.MemoryPageFragmentCachingFilter - Throwable thrown during doFilter on request with URI: /IP18GAA/grails/rubricCriterionLevel/deleteLevel.dispatch and Query: idRubric=1 : Error creating bean with name 'co.edu.uniandes.rubric.RubricCriterionLevelController': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [co.edu.uniandes.rubric.RubricCriterionLevelController]: Constructor threw exception; nested exception is java.lang.NullPointerException
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'co.edu.uniandes.rubric.RubricCriterionLevelController': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [co.edu.uniandes.rubric.RubricCriterionLevelController]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at grails.plugin.cache.web.filter.AbstractFilter.getBean(AbstractFilter.java:196)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.lookupController(PageFragmentCachingFilter.java:842)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:173)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [co.edu.uniandes.rubric.RubricCriterionLevelController]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	... 10 more
+Caused by: java.lang.NullPointerException
+18-12-2019 19:57:02,017 ERROR [/IP18GAA].[grails] - Servlet.service() for servlet grails threw exception
+java.lang.NullPointerException
+18-12-2019 19:57:02,017 ERROR [/IP18GAA].[default] - Servlet.service() for servlet [default] in context with path [/IP18GAA] threw exception [org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'co.edu.uniandes.rubric.RubricCriterionLevelController': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [co.edu.uniandes.rubric.RubricCriterionLevelController]: Constructor threw exception; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException
+18-12-2019 19:57:06,146 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/course/showDashboard
+Cannot get property 'value' on null object. Stacktrace follows:
+java.lang.NullPointerException: Cannot get property 'value' on null object
+	at co.edu.uniandes.gaa.CourseController.buildData(CourseController.groovy:504)
+	at co.edu.uniandes.gaa.CourseController.showDashboard(CourseController.groovy:228)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+18-12-2019 19:57:33,071  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricCriterionLevelController.groovy] changed. Applying changes to application.
+18-12-2019 19:57:33,071  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricCriterionLevelController.groovy] changed. Applying changes to application.
+18-12-2019 19:57:33,711  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricCriterionLevelController.groovy] changed. Applying changes to application.
+18-12-2019 19:57:34,000  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricCriterionLevelController.groovy] changed. Applying changes to application.
+18-12-2019 19:57:34,291  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricCriterionLevel
+18-12-2019 19:57:43,165 ERROR errors.GrailsExceptionResolver - MissingMethodException occurred when processing request: [GET] /IP18GAA/rubricCriterionLevel/deleteLevel/4 - parameters:
+idRubric: 1
+No signature of method: co.edu.uniandes.rubric.RubricService.deleteLevel() is applicable for argument types: (co.edu.uniandes.rubric.RubricCriterionLevel) values: [nueva prueba de nivelqq - 4]
+Possible solutions: deleteLevel(co.edu.uniandes.rubric.RubricOutcomeCriterion). Stacktrace follows:
+groovy.lang.MissingMethodException: No signature of method: co.edu.uniandes.rubric.RubricService.deleteLevel() is applicable for argument types: (co.edu.uniandes.rubric.RubricCriterionLevel) values: [nueva prueba de nivelqq - 4]
+Possible solutions: deleteLevel(co.edu.uniandes.rubric.RubricOutcomeCriterion)
+	at co.edu.uniandes.rubric.RubricCriterionLevelController$$ERl3Y4fm.deleteLevel(RubricCriterionLevelController.groovy:30)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+18-12-2019 19:58:08,533  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 19:58:08,533  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 19:58:09,141  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 19:58:09,892  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 19:58:11,013 ERROR agent.Watcher - FileWatcher caught serious error, see cause
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "co/edu/uniandes/rubric/RubricService$_saveCriterion_closure5$$DRl3YDwc"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:642)
+	at java.lang.Thread.run(Thread.java:745)
+18-12-2019 19:58:11,015 ERROR agent.Watcher - FileWatcher caught serious error, see cause
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "co/edu/uniandes/rubric/RubricService$_saveLevel_closure7$$DRl3YDwe"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:642)
+	at java.lang.Thread.run(Thread.java:745)
+18-12-2019 19:58:11,016 ERROR agent.Watcher - FileWatcher caught serious error, see cause
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "co/edu/uniandes/rubric/RubricService$_saveOutcome_closure3$$DRl3YDwb"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:642)
+	at java.lang.Thread.run(Thread.java:745)
+18-12-2019 19:58:11,019 ERROR agent.Watcher - FileWatcher caught serious error, see cause
+java.lang.LinkageError: loader (instance of  org/springsource/loaded/ChildClassLoader): attempted  duplicate class definition for name: "co/edu/uniandes/rubric/RubricService$$DRl3YDwZ"
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:760)
+	at java.lang.ClassLoader.defineClass(ClassLoader.java:642)
+	at java.lang.Thread.run(Thread.java:745)
+18-12-2019 19:58:15,999  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 19:58:15,999  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 19:58:16,772  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 19:58:17,149  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 19:58:23,640 ERROR errors.GrailsExceptionResolver - MissingPropertyException occurred when processing request: [GET] /IP18GAA/rubricCriterionLevel/deleteLevel/4 - parameters:
+idRubric: 1
+No such property: rubricOutcome for class: co.edu.uniandes.rubric.RubricCriterionLevel. Stacktrace follows:
+groovy.lang.MissingPropertyException: No such property: rubricOutcome for class: co.edu.uniandes.rubric.RubricCriterionLevel
+	at co.edu.uniandes.rubric.RubricService$$ERl3YFrH.$tt__deleteLevel(RubricService.groovy:151)
+	at co.edu.uniandes.rubric.RubricCriterionLevelController$$ERl3Y4fm.deleteLevel(RubricCriterionLevelController.groovy:30)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+18-12-2019 19:59:51,487  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 19:59:51,487  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 19:59:52,384  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 19:59:52,874  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\services\co\edu\uniandes\rubric\RubricService.groovy] changed. Applying changes to application.
+18-12-2019 20:01:18,026 ERROR spring.OptimizedAutowireCapableBeanFactory - Bean couldn't be autowired using grails optimization: null
+18-12-2019 20:01:18,026 ERROR spring.OptimizedAutowireCapableBeanFactory - Retrying using spring autowire
+18-12-2019 20:01:18,026  WARN simple.MemoryPageFragmentCachingFilter - Throwable thrown during doFilter on request with URI: /IP18GAA/grails/rubricOutcomeCriterion/editCriterion.dispatch and Query: idOutcome=5&idRubric=2 : Error creating bean with name 'co.edu.uniandes.rubric.RubricOutcomeCriterionController': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [co.edu.uniandes.rubric.RubricOutcomeCriterionController]: Constructor threw exception; nested exception is java.lang.NullPointerException
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'co.edu.uniandes.rubric.RubricOutcomeCriterionController': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [co.edu.uniandes.rubric.RubricOutcomeCriterionController]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	at grails.plugin.cache.web.filter.AbstractFilter.getBean(AbstractFilter.java:196)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.lookupController(PageFragmentCachingFilter.java:842)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:173)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [co.edu.uniandes.rubric.RubricOutcomeCriterionController]: Constructor threw exception; nested exception is java.lang.NullPointerException
+	... 10 more
+Caused by: java.lang.NullPointerException
+18-12-2019 20:01:18,026 ERROR [/IP18GAA].[grails] - Servlet.service() for servlet grails threw exception
+java.lang.NullPointerException
+18-12-2019 20:01:18,026 ERROR [/IP18GAA].[default] - Servlet.service() for servlet [default] in context with path [/IP18GAA] threw exception [org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'co.edu.uniandes.rubric.RubricOutcomeCriterionController': Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Could not instantiate bean class [co.edu.uniandes.rubric.RubricOutcomeCriterionController]: Constructor threw exception; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException
+18-12-2019 20:02:41,336  INFO webxml.WebxmlGrailsPlugin - Loading default config file: class DefaultWebXmlConfig
+18-12-2019 20:02:41,364  WARN webxml.WebxmlGrailsPlugin - Did not find application config file: WebXmlConfig
+18-12-2019 20:02:42,624  INFO webxml.WebxmlGrailsPlugin - Loading default config file: class DefaultWebXmlConfig
+18-12-2019 20:02:42,630  WARN webxml.WebxmlGrailsPlugin - Did not find application config file: WebXmlConfig
+18-12-2019 20:02:47,507  INFO [localhost].[/IP18GAA] - Initializing Spring root WebApplicationContext
+18-12-2019 20:02:53,291  INFO hibernate4.HibernatePluginSupport - Set db generation strategy to '' for datasource DEFAULT
+18-12-2019 20:02:54,888  INFO cache.CacheBeanPostProcessor - postProcessBeanDefinitionRegistry start
+18-12-2019 20:02:54,893  INFO cache.CacheBeanPostProcessor - postProcessBeanFactory
+18-12-2019 20:02:57,251  WARN config.ConfigurationFactory - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/awake/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+18-12-2019 20:03:00,704  INFO scaffolding.AbstractGrailsTemplateGenerator - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@6a0c2a70: startup date [Wed Dec 18 20:02:54 COT 2019]; parent: Root WebApplicationContext]
+18-12-2019 20:03:05,337  INFO databasemigration.MigrationRunner - updateOnStart disabled for dataSource; not running migrations
+18-12-2019 20:03:05,373  INFO ScaffoldingGrailsPlugin - configuring scaffolding...
+18-12-2019 20:03:05,398  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Activity
+18-12-2019 20:03:06,629  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.ActivityOutcome
+18-12-2019 20:03:07,187  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.AvailablePlatform
+18-12-2019 20:03:07,696  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Category
+18-12-2019 20:03:08,196  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Course
+18-12-2019 20:03:08,663  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.GAA
+18-12-2019 20:03:09,077  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Module
+18-12-2019 20:03:10,615  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.ModuleOutcome
+18-12-2019 20:03:11,028  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Outcome
+18-12-2019 20:03:11,403  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.VerifiableActivity
+18-12-2019 20:03:11,841  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.Role
+18-12-2019 20:03:12,251  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.User
+18-12-2019 20:03:12,740  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.UserRole
+18-12-2019 20:03:13,112  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.platform.BlackboardPlatform
+18-12-2019 20:03:13,492  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.platform.PlatformCreator
+18-12-2019 20:03:13,935  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.Rubric
+18-12-2019 20:03:14,553  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricCriterionLevelAnswer
+18-12-2019 20:03:14,985  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricCriterionLevel
+18-12-2019 20:03:15,398  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricLevelFeedback
+18-12-2019 20:03:15,777  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcome
+18-12-2019 20:03:16,149  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcomeCriterion
+18-12-2019 20:03:16,534  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricPlatformActivity
+18-12-2019 20:03:17,039  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.StudentRubricAnswer
+18-12-2019 20:03:17,517  INFO ScaffoldingGrailsPlugin - done configuring scaffolding.
+18-12-2019 20:03:17,680  INFO context.GrailsConfigUtils - [GrailsContextLoader] Grails application loaded.
+18-12-2019 20:03:18,500  INFO [localhost].[/IP18GAA] - Initializing Spring FrameworkServlet 'grails'
+18-12-2019 20:03:18,628  INFO http11.Http11Protocol - Starting ProtocolHandler ["http-bio-8080"]
+18-12-2019 20:03:31,756  INFO [localhost].[/IP18GAA] - Initializing Spring FrameworkServlet 'gsp'
+18-12-2019 20:03:31,756  INFO [localhost].[/IP18GAA] - GSP servlet initialized

@@ -1,0 +1,120 @@
+11-12-2019 19:39:38,852  INFO webxml.WebxmlGrailsPlugin - Loading default config file: class DefaultWebXmlConfig
+11-12-2019 19:39:38,876  WARN webxml.WebxmlGrailsPlugin - Did not find application config file: WebXmlConfig
+11-12-2019 19:39:40,723  INFO webxml.WebxmlGrailsPlugin - Loading default config file: class DefaultWebXmlConfig
+11-12-2019 19:39:40,729  WARN webxml.WebxmlGrailsPlugin - Did not find application config file: WebXmlConfig
+11-12-2019 19:39:45,793  INFO [localhost].[/IP18GAA] - Initializing Spring root WebApplicationContext
+11-12-2019 19:39:51,901  INFO hibernate4.HibernatePluginSupport - Set db generation strategy to 'create-drop' for datasource DEFAULT
+11-12-2019 19:39:53,784  INFO cache.CacheBeanPostProcessor - postProcessBeanDefinitionRegistry start
+11-12-2019 19:39:53,800  INFO cache.CacheBeanPostProcessor - postProcessBeanFactory
+11-12-2019 19:39:56,071  WARN config.ConfigurationFactory - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/awake/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+11-12-2019 19:39:58,776 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table rubric drop foreign key FK_bi5quk42mmx5pocrn7krst39v
+11-12-2019 19:39:58,776 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.rubric' doesn't exist
+11-12-2019 19:39:58,777 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table rubric_criterion_level drop foreign key FK_6p1avnforkbc14flih6ikhdbs
+11-12-2019 19:39:58,777 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.rubric_criterion_level' doesn't exist
+11-12-2019 19:39:58,777 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table rubric_criterion_level_answer drop foreign key FK_qareyh2mppayd1t2vic17p86f
+11-12-2019 19:39:58,778 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.rubric_criterion_level_answer' doesn't exist
+11-12-2019 19:39:58,778 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table rubric_level_feedback drop foreign key FK_3nhm1562phpb24n4uwax5l9ru
+11-12-2019 19:39:58,779 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.rubric_level_feedback' doesn't exist
+11-12-2019 19:39:58,780 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table rubric_outcome drop foreign key FK_6a21adwb0bs5a9tkka9h3xyox
+11-12-2019 19:39:58,780 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.rubric_outcome' doesn't exist
+11-12-2019 19:39:58,781 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table rubric_outcome_criterion drop foreign key FK_2d7roud1x9f11nsujedgcjhml
+11-12-2019 19:39:58,781 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.rubric_outcome_criterion' doesn't exist
+11-12-2019 19:39:58,786 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table rubric_platform_activity drop foreign key FK_cyw10c5d7s9lo6u94oanqk8uk
+11-12-2019 19:39:58,786 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.rubric_platform_activity' doesn't exist
+11-12-2019 19:39:58,787 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table rubric_platform_activity drop foreign key FK_itvyp4ub417vby8ode5gy6m8t
+11-12-2019 19:39:58,787 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.rubric_platform_activity' doesn't exist
+11-12-2019 19:39:58,787 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table rubric_platform_activity_student_rubric_answer drop foreign key FK_pf0ukqyw7wfp65k14p410gaxq
+11-12-2019 19:39:58,787 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.rubric_platform_activity_student_rubric_answer' doesn't exist
+11-12-2019 19:39:58,788 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table rubric_platform_activity_student_rubric_answer drop foreign key FK_tbgtvnrq553abnv5ov9dnoqst
+11-12-2019 19:39:58,788 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.rubric_platform_activity_student_rubric_answer' doesn't exist
+11-12-2019 19:39:58,789 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table student_rubric_answer_rubric_criterion_level_answer drop foreign key FK_urfwn7b0y3vcdyfaj22g8qqq
+11-12-2019 19:39:58,791 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.student_rubric_answer_rubric_criterion_level_answer' doesn't exist
+11-12-2019 19:39:58,792 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table student_rubric_answer_rubric_criterion_level_answer drop foreign key FK_mq9r8mrq6w6x0tl1usxwj0ccl
+11-12-2019 19:39:58,792 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.student_rubric_answer_rubric_criterion_level_answer' doesn't exist
+11-12-2019 19:39:58,793 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table student_verifiable_activity drop foreign key FK_a0qs107d529k06bq159kauapw
+11-12-2019 19:39:58,794 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.student_verifiable_activity' doesn't exist
+11-12-2019 19:39:58,794 ERROR hbm2ddl.SchemaExport - HHH000389: Unsuccessful: alter table student_verifiable_activity drop foreign key FK_lg7hufav965cue5corlp8g9b4
+11-12-2019 19:39:58,795 ERROR hbm2ddl.SchemaExport - Table 'dbip18gaa.student_verifiable_activity' doesn't exist
+11-12-2019 19:40:03,842  INFO scaffolding.AbstractGrailsTemplateGenerator - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@2772bd4a: startup date [Wed Dec 11 19:39:53 COT 2019]; parent: Root WebApplicationContext]
+11-12-2019 19:40:08,519  INFO databasemigration.MigrationRunner - updateOnStart disabled for dataSource; not running migrations
+11-12-2019 19:40:08,690  INFO ScaffoldingGrailsPlugin - configuring scaffolding...
+11-12-2019 19:40:08,717  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Activity
+11-12-2019 19:40:09,945  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.ActivityOutcome
+11-12-2019 19:40:10,653  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.AvailablePlatform
+11-12-2019 19:40:11,226  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Category
+11-12-2019 19:40:11,764  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Course
+11-12-2019 19:40:12,205  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.GAA
+11-12-2019 19:40:12,642  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Module
+11-12-2019 19:40:13,039  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.ModuleOutcome
+11-12-2019 19:40:13,496  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Outcome
+11-12-2019 19:40:13,896  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.VerifiableActivity
+11-12-2019 19:40:14,314  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.Role
+11-12-2019 19:40:14,748  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.User
+11-12-2019 19:40:15,211  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.UserRole
+11-12-2019 19:40:15,653  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.platform.BlackboardPlatform
+11-12-2019 19:40:16,027  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.platform.PlatformCreator
+11-12-2019 19:40:16,476  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.Rubric
+11-12-2019 19:40:18,166  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricCriterionLevelAnswer
+11-12-2019 19:40:18,595  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricCriterionLevel
+11-12-2019 19:40:19,015  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricLevelFeedback
+11-12-2019 19:40:19,364  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcome
+11-12-2019 19:40:19,720  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcomeCriterion
+11-12-2019 19:40:20,051  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricPlatformActivity
+11-12-2019 19:40:20,415  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.StudentRubricAnswer
+11-12-2019 19:40:20,756  INFO ScaffoldingGrailsPlugin - done configuring scaffolding.
+11-12-2019 19:40:20,895  INFO context.GrailsConfigUtils - [GrailsContextLoader] Grails application loaded.
+11-12-2019 19:40:21,474  INFO conf.BootStrap - Creado el rol: ROLE_ADMIN
+11-12-2019 19:40:21,482  INFO conf.BootStrap - Creado el rol: ROLE_STUDENT
+11-12-2019 19:40:21,492  INFO conf.BootStrap - Creado el rol: ROLE_PROFESSOR
+11-12-2019 19:40:21,819  INFO conf.BootStrap - Creado el usuario: cr.calle
+11-12-2019 19:40:21,967  INFO conf.BootStrap - Creado el usuario: se-busto
+11-12-2019 19:40:22,072  INFO conf.BootStrap - Creado el usuario: danielsantamariarod
+11-12-2019 19:40:22,191  INFO conf.BootStrap - Creado el usuario: gcortes
+11-12-2019 19:40:22,312  INFO conf.BootStrap - Creado el usuario: wa.rodriguezm
+11-12-2019 19:40:22,417  INFO conf.BootStrap - Creado el usuario: js.preciado
+11-12-2019 19:40:22,539  INFO conf.BootStrap - Creado el usuario: mf.higuera
+11-12-2019 19:40:22,651  INFO conf.BootStrap - Creado el usuario: ana-vela
+11-12-2019 19:40:22,866  INFO [localhost].[/IP18GAA] - Initializing Spring FrameworkServlet 'grails'
+11-12-2019 19:40:22,973  INFO http11.Http11Protocol - Starting ProtocolHandler ["http-bio-8080"]
+11-12-2019 19:40:55,229  INFO [localhost].[/IP18GAA] - Initializing Spring FrameworkServlet 'gsp'
+11-12-2019 19:40:55,230  INFO [localhost].[/IP18GAA] - GSP servlet initialized
+11-12-2019 19:41:15,059  INFO [localhost].[/IP18GAA] - GroovyPagesServlet:  "/WEB-INF/grails-app/views/course/select.gsp" not found
+11-12-2019 20:04:04,435 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/course/showDashboard
+Cannot get property 'value' on null object. Stacktrace follows:
+java.lang.NullPointerException: Cannot get property 'value' on null object
+	at co.edu.uniandes.gaa.CourseController.buildData(CourseController.groovy:504)
+	at co.edu.uniandes.gaa.CourseController.showDashboard(CourseController.groovy:228)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+11-12-2019 20:04:06,380 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/course/showDashboard
+Cannot get property 'value' on null object. Stacktrace follows:
+java.lang.NullPointerException: Cannot get property 'value' on null object
+	at co.edu.uniandes.gaa.CourseController.buildData(CourseController.groovy:504)
+	at co.edu.uniandes.gaa.CourseController.showDashboard(CourseController.groovy:228)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+11-12-2019 20:04:20,130 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/course/showDashboard
+Cannot get property 'value' on null object. Stacktrace follows:
+java.lang.NullPointerException: Cannot get property 'value' on null object
+	at co.edu.uniandes.gaa.CourseController.buildData(CourseController.groovy:504)
+	at co.edu.uniandes.gaa.CourseController.showDashboard(CourseController.groovy:228)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)

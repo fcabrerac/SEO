@@ -1,0 +1,1720 @@
+01-03-2020 22:10:43,242  INFO webxml.WebxmlGrailsPlugin - Loading default config file: class DefaultWebXmlConfig
+01-03-2020 22:10:43,299  WARN webxml.WebxmlGrailsPlugin - Did not find application config file: WebXmlConfig
+01-03-2020 22:10:44,686  INFO webxml.WebxmlGrailsPlugin - Loading default config file: class DefaultWebXmlConfig
+01-03-2020 22:10:44,705  WARN webxml.WebxmlGrailsPlugin - Did not find application config file: WebXmlConfig
+01-03-2020 22:10:51,125  INFO [localhost].[/IP18GAA] - Initializing Spring root WebApplicationContext
+01-03-2020 22:10:57,744  INFO hibernate4.HibernatePluginSupport - Set db generation strategy to 'create-drop' for datasource DEFAULT
+01-03-2020 22:10:59,801  INFO cache.CacheBeanPostProcessor - postProcessBeanDefinitionRegistry start
+01-03-2020 22:10:59,928  INFO cache.CacheBeanPostProcessor - postProcessBeanFactory
+01-03-2020 22:11:02,078  WARN config.ConfigurationFactory - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/awake/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+01-03-2020 22:11:10,910  INFO scaffolding.AbstractGrailsTemplateGenerator - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@61f37463: startup date [Sun Mar 01 22:10:59 COT 2020]; parent: Root WebApplicationContext]
+01-03-2020 22:11:21,421  INFO databasemigration.MigrationRunner - updateOnStart disabled for dataSource; not running migrations
+01-03-2020 22:11:21,641  INFO ScaffoldingGrailsPlugin - configuring scaffolding...
+01-03-2020 22:11:21,708  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Activity
+01-03-2020 22:11:23,669  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.ActivityOutcome
+01-03-2020 22:11:24,298  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.AvailablePlatform
+01-03-2020 22:11:25,090  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Category
+01-03-2020 22:11:25,706  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Course
+01-03-2020 22:11:26,320  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.GAA
+01-03-2020 22:11:26,953  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Module
+01-03-2020 22:11:27,666  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.ModuleOutcome
+01-03-2020 22:11:28,361  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Outcome
+01-03-2020 22:11:28,801  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.VerifiableActivity
+01-03-2020 22:11:29,274  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.Role
+01-03-2020 22:11:29,919  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.User
+01-03-2020 22:11:30,467  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.UserRole
+01-03-2020 22:11:30,877  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.platform.BlackboardPlatform
+01-03-2020 22:11:31,280  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.platform.PlatformCreator
+01-03-2020 22:11:31,781  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.Rubric
+01-03-2020 22:11:32,228  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricCriterionLevelAnswer
+01-03-2020 22:11:32,813  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricCriterionLevel
+01-03-2020 22:11:33,304  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricLevelFeedback
+01-03-2020 22:11:34,179  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcome
+01-03-2020 22:11:35,211  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcomeCriterion
+01-03-2020 22:11:35,884  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricPlatformActivity
+01-03-2020 22:11:36,718  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.StudentRubricAnswer
+01-03-2020 22:11:37,549  INFO ScaffoldingGrailsPlugin - done configuring scaffolding.
+01-03-2020 22:11:37,858  INFO context.GrailsConfigUtils - [GrailsContextLoader] Grails application loaded.
+01-03-2020 22:11:39,011  INFO conf.BootStrap - Creado el rol: ROLE_ADMIN
+01-03-2020 22:11:39,021  INFO conf.BootStrap - Creado el rol: ROLE_STUDENT
+01-03-2020 22:11:39,029  INFO conf.BootStrap - Creado el rol: ROLE_PROFESSOR
+01-03-2020 22:11:39,441  INFO conf.BootStrap - Creado el usuario: cr.calle
+01-03-2020 22:11:39,603  INFO conf.BootStrap - Creado el usuario: se-busto
+01-03-2020 22:11:39,753  INFO conf.BootStrap - Creado el usuario: danielsantamariarod
+01-03-2020 22:11:39,861  INFO conf.BootStrap - Creado el usuario: gcortes
+01-03-2020 22:11:40,009  INFO conf.BootStrap - Creado el usuario: wa.rodriguezm
+01-03-2020 22:11:40,131  INFO conf.BootStrap - Creado el usuario: js.preciado
+01-03-2020 22:11:40,240  INFO conf.BootStrap - Creado el usuario: mf.higuera
+01-03-2020 22:11:40,384  INFO conf.BootStrap - Creado el usuario: ana-vela
+01-03-2020 22:11:40,575  INFO [localhost].[/IP18GAA] - Initializing Spring FrameworkServlet 'grails'
+01-03-2020 22:11:40,759  INFO http11.Http11Protocol - Starting ProtocolHandler ["http-bio-8080"]
+01-03-2020 22:13:26,917  INFO [localhost].[/IP18GAA] - Initializing Spring FrameworkServlet 'gsp'
+01-03-2020 22:13:26,918  INFO [localhost].[/IP18GAA] - GSP servlet initialized
+01-03-2020 22:14:50,579  INFO [localhost].[/IP18GAA] - GroovyPagesServlet:  "/WEB-INF/grails-app/views/course/select.gsp" not found
+01-03-2020 22:17:10,945 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [38]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:165)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	... 10 more
+01-03-2020 22:17:11,580  INFO [localhost].[/IP18GAA] - Initializing Spring FrameworkServlet 'grails-errorhandler'
+01-03-2020 22:17:33,189 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [38]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:165)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	... 10 more
+01-03-2020 22:17:45,516 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [38]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:165)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	... 10 more
+01-03-2020 22:18:03,817 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [38]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:165)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	... 10 more
+01-03-2020 22:19:22,441 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [38]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:165)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	... 10 more
+01-03-2020 22:19:42,291 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [38]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:165)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	... 10 more
+01-03-2020 22:19:56,467 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [38]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:165)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	... 10 more
+01-03-2020 22:20:08,539 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [38]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:165)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	... 10 more
+01-03-2020 22:20:21,961 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [38]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:165)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	... 10 more
+01-03-2020 22:20:49,416 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [38]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:165)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	... 10 more
+01-03-2020 22:21:11,733 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [38]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:165)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	... 10 more
+01-03-2020 22:33:19,009  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricController.groovy] changed. Applying changes to application.
+01-03-2020 22:33:19,012  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricController.groovy] changed. Applying changes to application.
+01-03-2020 22:33:20,510  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricController.groovy] changed. Applying changes to application.
+01-03-2020 22:33:21,582  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\controllers\co\edu\uniandes\rubric\RubricController.groovy] changed. Applying changes to application.
+01-03-2020 22:33:21,971  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.Rubric
+01-03-2020 22:33:23,917  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.Rubric
+01-03-2020 22:33:25,048 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [38]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:168)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	... 10 more
+01-03-2020 22:33:27,521  INFO [localhost].[/IP18GAA] - GroovyPagesServlet:  "/WEB-INF/grails-app/views/rubric/selfAppraisal.gsp" not found
+01-03-2020 22:33:31,300 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [38]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:168)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	... 10 more
+01-03-2020 22:34:30,022 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [38]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:55)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:168)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:55)
+	... 10 more
+01-03-2020 22:34:43,640 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [31]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:49)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:162)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure23.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:49)
+	... 10 more
+01-03-2020 22:35:08,674 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [31]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:49)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:162)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure23.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:49)
+	... 10 more
+01-03-2020 22:35:13,126 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [38]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:168)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	... 10 more
+01-03-2020 22:35:14,886 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [31]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:49)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:162)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure23.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:49)
+	... 10 more
+01-03-2020 22:36:23,600 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [38]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:168)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	... 10 more
+01-03-2020 22:36:25,193 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [31]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:49)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:162)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure23.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:49)
+	... 10 more
+01-03-2020 22:43:49,654 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [135]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:150)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:153)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure63.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:150)
+	... 10 more
+01-03-2020 22:44:32,174 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [135]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:150)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:153)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure63.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:150)
+	... 10 more
+01-03-2020 22:45:48,486 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [135]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:150)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:153)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure63.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:150)
+	... 10 more
+01-03-2020 22:46:11,675 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [125]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:141)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:144)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure49.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:141)
+	... 10 more
+01-03-2020 22:46:30,342 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [101]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:124)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:127)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure43.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:124)
+	... 10 more
+01-03-2020 22:46:44,747 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [38]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:168)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	... 10 more
+01-03-2020 22:46:53,030 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [101]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:124)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:127)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure43.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:124)
+	... 10 more
+01-03-2020 22:48:11,040 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [73]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:91)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:94)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure33.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:91)
+	... 10 more
+01-03-2020 22:48:37,672 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [65]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure23.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	... 10 more
+01-03-2020 22:51:06,243 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [65]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure23.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	... 10 more
+01-03-2020 22:53:37,708 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [66]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure23.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	... 10 more
+01-03-2020 22:54:02,575 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [38]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:168)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	... 10 more
+01-03-2020 22:54:13,347 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [38]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:168)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	... 10 more
+01-03-2020 22:54:33,926 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [38]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:168)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	... 10 more
+01-03-2020 23:01:00,682 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [66]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure23.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	... 10 more
+01-03-2020 23:14:51,565 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [67]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure23.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	... 10 more
+01-03-2020 23:35:09,453 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [38]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:168)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	... 10 more
+01-03-2020 23:35:17,924 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [67]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure23.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	... 10 more
+01-03-2020 23:37:19,290 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [67]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure23.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	... 10 more
+01-03-2020 23:38:12,217 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [67]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure23.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	... 10 more
+01-03-2020 23:39:05,937 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [67]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure23.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	... 10 more
+01-03-2020 23:42:57,720 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [67]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure23.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	... 10 more
+01-03-2020 23:43:37,254 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [67]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure23.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	... 10 more
+01-03-2020 23:46:46,815 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [67]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure23.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	... 10 more
+01-03-2020 23:47:14,016 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [67]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure23.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	... 10 more
+01-03-2020 23:48:00,567 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [67]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure23.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	... 10 more
+01-03-2020 23:48:27,024 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [67]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure23.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	... 10 more
+01-03-2020 23:49:03,821 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [67]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure23.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	... 10 more
+01-03-2020 23:50:38,094 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [69]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure23.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	... 10 more
+01-03-2020 23:50:59,294 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [69]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure23.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	... 10 more
+01-03-2020 23:52:18,409 ERROR errors.GrailsExceptionResolver - GrailsTagException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/1
+Grails tag [g:form] was not closed. Stacktrace follows:
+java.lang.RuntimeException: Error initializing GroovyPageView
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.codehaus.groovy.grails.web.taglib.exceptions.GrailsTagException: Grails tag [g:form] was not closed
+	at grails.util.CacheEntry.getValue(CacheEntry.java:144)
+	at grails.util.CacheEntry.getValue(CacheEntry.java:84)
+	... 8 more
+01-03-2020 23:52:19,219 ERROR errors.GrailsExceptionResolver - GrailsTagException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Grails tag [g:form] was not closed. Stacktrace follows:
+java.lang.RuntimeException: Error initializing GroovyPageView
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: org.codehaus.groovy.grails.web.taglib.exceptions.GrailsTagException: Grails tag [g:form] was not closed
+	at grails.util.CacheEntry.getValue(CacheEntry.java:144)
+	at grails.util.CacheEntry.getValue(CacheEntry.java:84)
+	... 8 more
+01-03-2020 23:52:32,173 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [71]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:91)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	... 10 more
+02-03-2020 00:09:50,014 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [71]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:91)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	... 10 more
+02-03-2020 00:16:55,447 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [71]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:91)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	... 10 more
+02-03-2020 00:17:33,999 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [71]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:91)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	... 10 more
+02-03-2020 00:17:44,220 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [71]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:91)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	... 10 more
+02-03-2020 00:28:10,202 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [71]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:91)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	... 10 more
+02-03-2020 00:29:04,727 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [71]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:91)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	... 10 more
+02-03-2020 00:32:05,135 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [71]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:91)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	... 10 more
+02-03-2020 00:33:02,174 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [71]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:91)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	... 10 more
+02-03-2020 00:33:12,516 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [71]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:91)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	... 10 more
+02-03-2020 00:33:48,164 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [71]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:91)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	... 10 more
+02-03-2020 00:37:06,133 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [71]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:91)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	... 10 more
+02-03-2020 00:37:18,735 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [71]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:91)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	... 10 more
+02-03-2020 00:37:48,638 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [71]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:91)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	... 10 more
+02-03-2020 00:38:19,410 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [71]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:91)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	... 10 more
+02-03-2020 00:38:32,694 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [71]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:91)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	... 10 more
+02-03-2020 00:40:21,981 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [71]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:91)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	... 10 more
+02-03-2020 00:40:45,107 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [71]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:91)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	... 10 more
+02-03-2020 00:41:21,201 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [71]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:91)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	... 10 more
+02-03-2020 00:41:47,386 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [71]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:91)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	... 10 more
+02-03-2020 00:42:25,923 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [71]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:91)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	... 10 more
+02-03-2020 00:43:46,768 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [71]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:91)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	... 10 more
+02-03-2020 00:52:43,776 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [71]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:91)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	... 10 more
+02-03-2020 00:54:29,052 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [68]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure23.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	... 10 more
+02-03-2020 10:28:00,184  INFO webxml.WebxmlGrailsPlugin - Loading default config file: class DefaultWebXmlConfig
+02-03-2020 10:28:00,234  WARN webxml.WebxmlGrailsPlugin - Did not find application config file: WebXmlConfig
+02-03-2020 10:28:02,170  INFO webxml.WebxmlGrailsPlugin - Loading default config file: class DefaultWebXmlConfig
+02-03-2020 10:28:02,175  WARN webxml.WebxmlGrailsPlugin - Did not find application config file: WebXmlConfig
+02-03-2020 10:28:10,429  INFO [localhost].[/IP18GAA] - Initializing Spring root WebApplicationContext
+02-03-2020 10:28:18,547  INFO hibernate4.HibernatePluginSupport - Set db generation strategy to 'create-drop' for datasource DEFAULT
+02-03-2020 10:28:21,362  INFO cache.CacheBeanPostProcessor - postProcessBeanDefinitionRegistry start
+02-03-2020 10:28:21,457  INFO cache.CacheBeanPostProcessor - postProcessBeanFactory
+02-03-2020 10:28:26,242  WARN config.ConfigurationFactory - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/awake/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+02-03-2020 10:28:45,427  INFO scaffolding.AbstractGrailsTemplateGenerator - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@3cc6e6aa: startup date [Mon Mar 02 10:28:20 COT 2020]; parent: Root WebApplicationContext]
+02-03-2020 10:28:54,051  INFO databasemigration.MigrationRunner - updateOnStart disabled for dataSource; not running migrations
+02-03-2020 10:28:54,294  INFO ScaffoldingGrailsPlugin - configuring scaffolding...
+02-03-2020 10:28:54,337  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Activity
+02-03-2020 10:28:57,322  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.ActivityOutcome
+02-03-2020 10:28:58,953  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.AvailablePlatform
+02-03-2020 10:28:59,951  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Category
+02-03-2020 10:29:00,827  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Course
+02-03-2020 10:29:03,540  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.GAA
+02-03-2020 10:29:04,041  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Module
+02-03-2020 10:29:04,556  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.ModuleOutcome
+02-03-2020 10:29:05,189  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Outcome
+02-03-2020 10:29:05,684  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.VerifiableActivity
+02-03-2020 10:29:06,100  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.Role
+02-03-2020 10:29:06,692  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.User
+02-03-2020 10:29:07,250  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.UserRole
+02-03-2020 10:29:07,659  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.platform.BlackboardPlatform
+02-03-2020 10:29:08,182  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.platform.PlatformCreator
+02-03-2020 10:29:08,630  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.Rubric
+02-03-2020 10:29:09,059  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricCriterionLevelAnswer
+02-03-2020 10:29:09,556  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricCriterionLevel
+02-03-2020 10:29:10,053  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricLevelFeedback
+02-03-2020 10:29:10,562  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcome
+02-03-2020 10:29:10,997  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcomeCriterion
+02-03-2020 10:29:11,536  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricPlatformActivity
+02-03-2020 10:29:11,953  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.StudentRubricAnswer
+02-03-2020 10:29:12,372  INFO ScaffoldingGrailsPlugin - done configuring scaffolding.
+02-03-2020 10:29:12,623  INFO context.GrailsConfigUtils - [GrailsContextLoader] Grails application loaded.
+02-03-2020 10:29:13,367  INFO conf.BootStrap - Creado el rol: ROLE_ADMIN
+02-03-2020 10:29:13,380  INFO conf.BootStrap - Creado el rol: ROLE_STUDENT
+02-03-2020 10:29:13,391  INFO conf.BootStrap - Creado el rol: ROLE_PROFESSOR
+02-03-2020 10:29:13,901  INFO conf.BootStrap - Creado el usuario: cr.calle
+02-03-2020 10:29:14,029  INFO conf.BootStrap - Creado el usuario: se-busto
+02-03-2020 10:29:14,139  INFO conf.BootStrap - Creado el usuario: danielsantamariarod
+02-03-2020 10:29:14,241  INFO conf.BootStrap - Creado el usuario: gcortes
+02-03-2020 10:29:14,351  INFO conf.BootStrap - Creado el usuario: wa.rodriguezm
+02-03-2020 10:29:14,462  INFO conf.BootStrap - Creado el usuario: js.preciado
+02-03-2020 10:29:14,577  INFO conf.BootStrap - Creado el usuario: mf.higuera
+02-03-2020 10:29:14,701  INFO conf.BootStrap - Creado el usuario: ana-vela
+02-03-2020 10:29:14,933  INFO [localhost].[/IP18GAA] - Initializing Spring FrameworkServlet 'grails'
+02-03-2020 10:29:16,089  INFO http11.Http11Protocol - Starting ProtocolHandler ["http-bio-8080"]
+02-03-2020 10:41:19,958  INFO [localhost].[/IP18GAA] - Initializing Spring FrameworkServlet 'gsp'
+02-03-2020 10:41:19,959  INFO [localhost].[/IP18GAA] - GSP servlet initialized
+02-03-2020 10:46:14,457  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\conf\DataSource.groovy] changed. Applying changes to application.
+02-03-2020 10:46:14,457  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\conf\DataSource.groovy] changed. Applying changes to application.
+02-03-2020 10:46:15,602  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\conf\DataSource.groovy] changed. Applying changes to application.
+02-03-2020 10:46:15,823  INFO compiler.GrailsProjectWatcher - File [C:\Users\awake\workspace\IP18GAA\grails-app\conf\DataSource.groovy] changed. Applying changes to application.
+02-03-2020 10:46:15,858  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.Activity
+02-03-2020 10:46:15,860  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.Activity
+02-03-2020 10:46:15,861  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.Activity
+02-03-2020 10:46:15,861  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.ActivityOutcome
+02-03-2020 10:46:15,861  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.ActivityOutcome
+02-03-2020 10:46:15,862  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.ActivityOutcome
+02-03-2020 10:46:15,862  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.AvailablePlatform
+02-03-2020 10:46:15,862  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.AvailablePlatform
+02-03-2020 10:46:15,862  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.AvailablePlatform
+02-03-2020 10:46:15,863  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.Category
+02-03-2020 10:46:15,863  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.Category
+02-03-2020 10:46:15,863  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.Category
+02-03-2020 10:46:15,863  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.Course
+02-03-2020 10:46:15,864  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.Course
+02-03-2020 10:46:15,865  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.Course
+02-03-2020 10:46:15,865  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.GAA
+02-03-2020 10:46:15,866  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.GAA
+02-03-2020 10:46:15,866  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.GAA
+02-03-2020 10:46:15,866  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.MainGoal
+02-03-2020 10:46:15,866  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.MainGoal
+02-03-2020 10:46:15,867  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.MainGoal
+02-03-2020 10:46:15,867  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.Module
+02-03-2020 10:46:15,868  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.Module
+02-03-2020 10:46:15,868  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.Module
+02-03-2020 10:46:15,868  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.ModuleOutcome
+02-03-2020 10:46:15,868  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.ModuleOutcome
+02-03-2020 10:46:15,869  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormValidationApi in co.edu.uniandes.gaa.ModuleOutcome
+02-03-2020 10:46:15,869  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.Outcome
+02-03-2020 10:46:15,872  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.Outcome
+02-03-2020 10:46:32,972  INFO webxml.WebxmlGrailsPlugin - Loading default config file: class DefaultWebXmlConfig
+02-03-2020 10:46:33,025  WARN webxml.WebxmlGrailsPlugin - Did not find application config file: WebXmlConfig
+02-03-2020 10:46:34,275  INFO webxml.WebxmlGrailsPlugin - Loading default config file: class DefaultWebXmlConfig
+02-03-2020 10:46:34,302  WARN webxml.WebxmlGrailsPlugin - Did not find application config file: WebXmlConfig
+02-03-2020 10:46:39,689  INFO [localhost].[/IP18GAA] - Initializing Spring root WebApplicationContext
+02-03-2020 10:46:45,451  INFO hibernate4.HibernatePluginSupport - Set db generation strategy to 'create' for datasource DEFAULT
+02-03-2020 10:46:47,203  INFO cache.CacheBeanPostProcessor - postProcessBeanDefinitionRegistry start
+02-03-2020 10:46:47,206  INFO cache.CacheBeanPostProcessor - postProcessBeanFactory
+02-03-2020 10:46:48,934  WARN config.ConfigurationFactory - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/awake/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+02-03-2020 10:46:56,089  INFO scaffolding.AbstractGrailsTemplateGenerator - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@60dfc79e: startup date [Mon Mar 02 10:46:46 COT 2020]; parent: Root WebApplicationContext]
+02-03-2020 10:47:02,089  INFO databasemigration.MigrationRunner - updateOnStart disabled for dataSource; not running migrations
+02-03-2020 10:47:02,289  INFO ScaffoldingGrailsPlugin - configuring scaffolding...
+02-03-2020 10:47:02,335  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Activity
+02-03-2020 10:47:03,446  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.ActivityOutcome
+02-03-2020 10:47:04,016  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.AvailablePlatform
+02-03-2020 10:47:04,520  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Category
+02-03-2020 10:47:05,088  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Course
+02-03-2020 10:47:05,558  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.GAA
+02-03-2020 10:47:06,079  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Module
+02-03-2020 10:47:06,545  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.ModuleOutcome
+02-03-2020 10:47:07,173  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Outcome
+02-03-2020 10:47:07,563  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.VerifiableActivity
+02-03-2020 10:47:08,018  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.Role
+02-03-2020 10:47:08,428  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.User
+02-03-2020 10:47:08,797  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.UserRole
+02-03-2020 10:47:09,207  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.platform.BlackboardPlatform
+02-03-2020 10:47:09,604  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.platform.PlatformCreator
+02-03-2020 10:47:09,996  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.Rubric
+02-03-2020 10:47:10,367  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricCriterionLevelAnswer
+02-03-2020 10:47:10,785  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricCriterionLevel
+02-03-2020 10:47:11,301  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricLevelFeedback
+02-03-2020 10:47:11,816  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcome
+02-03-2020 10:47:13,710  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcomeCriterion
+02-03-2020 10:47:14,166  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricPlatformActivity
+02-03-2020 10:47:14,505  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.StudentRubricAnswer
+02-03-2020 10:47:14,927  INFO ScaffoldingGrailsPlugin - done configuring scaffolding.
+02-03-2020 10:47:14,943  INFO context.GrailsConfigUtils - [GrailsContextLoader] Grails application loaded.
+02-03-2020 10:47:15,415  INFO conf.BootStrap - Creado el rol: ROLE_ADMIN
+02-03-2020 10:47:15,431  INFO conf.BootStrap - Creado el rol: ROLE_STUDENT
+02-03-2020 10:47:15,441  INFO conf.BootStrap - Creado el rol: ROLE_PROFESSOR
+02-03-2020 10:47:15,696  INFO conf.BootStrap - Creado el usuario: cr.calle
+02-03-2020 10:47:15,831  INFO conf.BootStrap - Creado el usuario: se-busto
+02-03-2020 10:47:15,972  INFO conf.BootStrap - Creado el usuario: danielsantamariarod
+02-03-2020 10:47:16,147  INFO conf.BootStrap - Creado el usuario: gcortes
+02-03-2020 10:47:16,278  INFO conf.BootStrap - Creado el usuario: wa.rodriguezm
+02-03-2020 10:47:16,393  INFO conf.BootStrap - Creado el usuario: js.preciado
+02-03-2020 10:47:16,510  INFO conf.BootStrap - Creado el usuario: mf.higuera
+02-03-2020 10:47:16,621  INFO conf.BootStrap - Creado el usuario: ana-vela
+02-03-2020 10:47:16,772  INFO [localhost].[/IP18GAA] - Initializing Spring FrameworkServlet 'grails'
+02-03-2020 10:47:16,888  INFO http11.Http11Protocol - Starting ProtocolHandler ["http-bio-8080"]
+02-03-2020 12:56:13,937  INFO [localhost].[/IP18GAA] - Initializing Spring FrameworkServlet 'gsp'
+02-03-2020 12:56:13,938  INFO [localhost].[/IP18GAA] - GSP servlet initialized
+02-03-2020 12:56:22,891  INFO [localhost].[/IP18GAA] - GroovyPagesServlet:  "/WEB-INF/grails-app/views/course/select.gsp" not found
+02-03-2020 13:16:28,477 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [153]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:165)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:168)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure76.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:165)
+	... 10 more
+02-03-2020 13:16:29,074  INFO [localhost].[/IP18GAA] - Initializing Spring FrameworkServlet 'grails-errorhandler'
+02-03-2020 13:17:21,714 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [38]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:168)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	... 10 more
+02-03-2020 13:17:30,402 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [38]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:168)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	... 10 more
+02-03-2020 13:17:47,850 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [38]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:168)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	... 10 more
+02-03-2020 13:18:28,281 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [38]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:168)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	... 10 more
+02-03-2020 13:18:40,927 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [38]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:168)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	... 10 more
+02-03-2020 13:19:14,244 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [38]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:168)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	... 10 more
+02-03-2020 13:20:01,012 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [38]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:168)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	... 10 more
+02-03-2020 13:22:10,997 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [38]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:168)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	... 10 more
+02-03-2020 13:22:33,022 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [38]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:168)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	... 10 more
+02-03-2020 13:22:59,493 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [68]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure23.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	... 10 more
+02-03-2020 13:27:48,670 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [68]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure23.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	... 10 more
+02-03-2020 13:28:04,814 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [68]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure23.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	... 10 more
+02-03-2020 13:28:44,020 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [68]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure23.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	... 10 more
+02-03-2020 13:31:08,206 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [38]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:168)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	... 10 more
+02-03-2020 13:31:13,118 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [38]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:168)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	... 10 more
+02-03-2020 13:31:15,362 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [68]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure23.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	... 10 more
+02-03-2020 13:39:04,118 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idOutcome: ou.id, idRubric: rubric.id]] on line [38]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:168)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure26.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:55)
+	... 10 more
+02-03-2020 13:39:07,421 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/selfAppraisal/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [rubric.id] on line [68]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:88)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp$_run_closure2_closure23.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_selfAppraisal_gsp:85)
+	... 10 more
+02-03-2020 13:39:12,991  INFO domain.GrailsDomainClassCleaner - Clearing static property staticGormStaticApi in co.edu.uniandes.gaa.Activity
+02-03-2020 13:39:12,991  INFO domain.GrailsDomainClassCleaner - Clearing static property instanceGormInstanceApi in co.edu.uniandes.gaa.Activity

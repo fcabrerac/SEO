@@ -1,0 +1,58 @@
+06-02-2020 03:53:42,642  INFO webxml.WebxmlGrailsPlugin - Loading default config file: class DefaultWebXmlConfig
+06-02-2020 03:53:42,682  WARN webxml.WebxmlGrailsPlugin - Did not find application config file: WebXmlConfig
+06-02-2020 03:53:44,214  INFO webxml.WebxmlGrailsPlugin - Loading default config file: class DefaultWebXmlConfig
+06-02-2020 03:53:44,222  WARN webxml.WebxmlGrailsPlugin - Did not find application config file: WebXmlConfig
+06-02-2020 03:53:54,591  INFO [localhost].[/IP18GAA] - Initializing Spring root WebApplicationContext
+06-02-2020 03:54:03,400  INFO hibernate4.HibernatePluginSupport - Set db generation strategy to '' for datasource DEFAULT
+06-02-2020 03:54:05,775  INFO cache.CacheBeanPostProcessor - postProcessBeanDefinitionRegistry start
+06-02-2020 03:54:05,797  INFO cache.CacheBeanPostProcessor - postProcessBeanFactory
+06-02-2020 03:54:08,169  WARN config.ConfigurationFactory - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/awake/.m2/repository/net/sf/ehcache/ehcache-core/2.4.8/ehcache-core-2.4.8.jar!/ehcache-failsafe.xml
+06-02-2020 03:54:13,679  INFO scaffolding.AbstractGrailsTemplateGenerator - Scaffolding template generator set to use resource loader [org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@7bc21ab1: startup date [Thu Feb 06 03:54:05 COT 2020]; parent: Root WebApplicationContext]
+06-02-2020 03:54:21,585  INFO databasemigration.MigrationRunner - updateOnStart disabled for dataSource; not running migrations
+06-02-2020 03:54:21,651  INFO ScaffoldingGrailsPlugin - configuring scaffolding...
+06-02-2020 03:54:21,720  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Activity
+06-02-2020 03:54:23,263  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.ActivityOutcome
+06-02-2020 03:54:24,190  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.AvailablePlatform
+06-02-2020 03:54:25,022  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Category
+06-02-2020 03:54:25,824  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Course
+06-02-2020 03:54:28,025  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.GAA
+06-02-2020 03:54:28,588  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Module
+06-02-2020 03:54:29,087  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.ModuleOutcome
+06-02-2020 03:54:29,600  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.Outcome
+06-02-2020 03:54:30,077  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.gaa.VerifiableActivity
+06-02-2020 03:54:30,728  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.Role
+06-02-2020 03:54:31,467  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.User
+06-02-2020 03:54:32,028  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.login.UserRole
+06-02-2020 03:54:32,668  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.platform.BlackboardPlatform
+06-02-2020 03:54:33,176  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.platform.PlatformCreator
+06-02-2020 03:54:33,804  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.Rubric
+06-02-2020 03:54:34,329  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricCriterionLevelAnswer
+06-02-2020 03:54:34,828  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricCriterionLevel
+06-02-2020 03:54:35,385  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricLevelFeedback
+06-02-2020 03:54:36,157  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcome
+06-02-2020 03:54:36,796  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricOutcomeCriterion
+06-02-2020 03:54:37,341  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.RubricPlatformActivity
+06-02-2020 03:54:37,859  INFO ScaffoldingGrailsPlugin - Generating controller logic for scaffolding domain: co.edu.uniandes.rubric.StudentRubricAnswer
+06-02-2020 03:54:38,338  INFO ScaffoldingGrailsPlugin - done configuring scaffolding.
+06-02-2020 03:54:38,666  INFO context.GrailsConfigUtils - [GrailsContextLoader] Grails application loaded.
+06-02-2020 03:54:40,038  INFO [localhost].[/IP18GAA] - Initializing Spring FrameworkServlet 'grails'
+06-02-2020 03:54:40,124  INFO http11.Http11Protocol - Starting ProtocolHandler ["http-bio-8080"]
+06-02-2020 03:59:51,666  INFO [localhost].[/IP18GAA] - Initializing Spring FrameworkServlet 'gsp'
+06-02-2020 03:59:51,666  INFO [localhost].[/IP18GAA] - GSP servlet initialized
+06-02-2020 04:04:02,816 ERROR errors.GrailsExceptionResolver - NullPointerException occurred when processing request: [GET] /IP18GAA/rubric/defineRubric/favicon.ico
+Cannot get property 'id' on null object. Stacktrace follows:
+org.codehaus.groovy.grails.web.pages.exceptions.GroovyPagesException: Error evaluating expression [[idRubric: rubric.id]] on line [17]: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:40)
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp.run(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:164)
+	at grails.plugin.cache.web.filter.PageFragmentCachingFilter.doFilter(PageFragmentCachingFilter.java:198)
+	at grails.plugin.cache.web.filter.AbstractFilter.doFilter(AbstractFilter.java:63)
+	at grails.plugin.springsecurity.web.filter.GrailsAnonymousAuthenticationFilter.doFilter(GrailsAnonymousAuthenticationFilter.java:53)
+	at grails.plugin.springsecurity.web.authentication.RequestHolderAuthenticationFilter.doFilter(RequestHolderAuthenticationFilter.java:49)
+	at grails.plugin.springsecurity.web.authentication.logout.MutableLogoutFilter.doFilter(MutableLogoutFilter.java:82)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.NullPointerException: Cannot get property 'id' on null object
+	at C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp$_run_closure2_closure15.doCall(C__Users_awake_workspace_IP18GAA_grails_app_views_rubric_defineRubric_gsp:40)
+	... 10 more
+06-02-2020 04:04:03,766  INFO [localhost].[/IP18GAA] - Initializing Spring FrameworkServlet 'grails-errorhandler'
