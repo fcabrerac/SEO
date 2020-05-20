@@ -19,7 +19,7 @@
 }
  
 body {
-	background: rgb(0,0,0);
+	background:white;
 	background: radial-gradient(circle, rgba(0,0,0,1) 0%, rgba(27,27,27,1) 78%, rgba(56,56,56,1) 100%); 
 }
  
@@ -237,14 +237,14 @@ h1, h2 {
 	font-family: 'Raleway', sans-serif;
 }
   
-h3, p. ul {
+h3, p.ul {
 	font-family: 'Open Sans', sans-serif;
 }
 h3 {
-	font_size: 20px;
+	font-size: 20px;
 }
-p,ul {
-	font_size: 15px;
+p ,ul {
+	font-size: 15px;
 }
 #logo {
 	  font-size: 300px;
